@@ -1,2 +1,3 @@
-# cakeconf
-Website for the CAKE conf conference
+# CAKE conf
+
+CAKE conf is the best conference for all content enthusiasts!
