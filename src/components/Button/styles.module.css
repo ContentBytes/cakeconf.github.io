@@ -1,0 +1,26 @@
+.container {
+    color: #000000;
+    border-style: solid;
+    border-radius: 10px 10px 10px 10px;
+    border-color: #9C9C9C;
+    border-width: 0.5px;
+    padding: 1rem 2rem;
+    font-family: var(--ifm-font-family-base);
+    font-size: 1rem;
+}
+
+.container:hover {
+    color: #E5F6E6;
+    background-color: #292929;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.black {
+    color: white;
+    background-color: #000000;
+}
+
+.white {
+    background-color: white;
+}
