@@ -83,12 +83,12 @@ const config: Config = {
       items: [
         {to: '/', label: 'About', position: 'right'},
         {to: '/#speakers', label: 'Speakers', position: 'right'},
-        /* {
+        {
           to: "tickets",
           position: "right",
           label: "💥 Get tickets",
           className: "tickets-button"
-        }, */
+        },
       ],
     },
     footer: {
