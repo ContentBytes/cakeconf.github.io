@@ -1,10 +1,11 @@
 import clsx from "clsx";
 import Pill from "../Pill";
 import styles from "./styles.module.css";
-import { ButtonWhite } from "../Button";
+import { ButtonWhite, ButtonBlack } from "../Button";
 
 
 const SignupForm = "https://forms.gle/4Z8qW1h58gCYDdLi7";
+const Tickets = 'tickets';
 
 export default function About() {
   return (
@@ -36,6 +37,8 @@ export default function About() {
           </div>
           <div className={clsx(styles.centerButtons, styles.spaceBottom)}>
             <ButtonWhite link={SignupForm} label="🙋 Sign up for updates" />
+            <div className={styles.divider} />
+            <ButtonBlack link={Tickets} label="💥 Get tickets" />
           </div>
         </div>
       </div>

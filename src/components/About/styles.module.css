@@ -18,6 +18,12 @@
   justify-content: center;
 }
 
+.divider {
+  width: 3rem;
+  height: auto;
+  display: inline-block;
+}
+
 .centerButtons {
   display: flex;
   justify-content: center;
