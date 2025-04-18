@@ -35,3 +35,15 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* `Get tickets` button in navbar */
+
+.tickets-button {
+  background-color: black;
+  color: white;
+  border-color: white;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 10px;
+  padding: 8px 20px;
+}

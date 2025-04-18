@@ -5,11 +5,11 @@ import styles from "./styles.module.css";
 import cakeStyles from "@site/src/pages/index.module.css";
 
 
-const PersonalTicketLink = 'https://soon';
-const CorporateTicketLink = 'https://soon';
+const PersonalTicketLink = 'https://www.naffy.io/cake-conf/cake-conf-early-bird-ticket';
+const CorporateTicketLink = 'corporateticket';
 
 export function Badge() {
-  return <span className={styles.badge}>Limited amount</span>;
+  return <span className={styles.badge}>Limited amount!</span>;
 }
 
 export function Button({ link, label }) {
@@ -60,7 +60,7 @@ export function CorporateTicket() {
         <p>VAT 23%</p>
       </div>
       <div className={clsx(styles.center, styles.spaceBottom20)}>
-      <Button link={PersonalTicketLink} label="corporate" /></div>
+      <Button link={CorporateTicketLink} label="corporate" /></div>
     </div>
   );
 }
