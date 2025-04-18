@@ -14,7 +14,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`CAKE conf`}
-      description="Description will go into a meta tag in <head />">
+      description="Uniting content enthusiasts!">
       <main>
         <About />
         <Speakers />
