@@ -4,7 +4,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 
 export default function Networking() {
   return (
-    <div className={styles.background}>
+    <div id='networking' className={styles.background}>
       <div className="container">
         <div className={styles.title}>Networking at your own pace</div>
         <div className={styles.description}>

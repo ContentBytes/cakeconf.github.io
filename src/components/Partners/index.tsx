@@ -5,7 +5,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 
 export default function Partners() {
   return (
-    <div className={styles.background}>
+    <div id='partners' className={styles.background}>
       <div className={styles.title}>Media partners</div>
       <div className={styles.centerImgs}>
         <Link

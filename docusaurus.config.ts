@@ -83,6 +83,8 @@ const config: Config = {
       items: [
         {to: '/', label: 'About', position: 'right'},
         {to: '/#speakers', label: 'Speakers', position: 'right'},
+        {to: '/#networking', label: 'Networking', position: 'right'},
+        {to: '/#partners', label: 'Partners', position: 'right'},
         {
           to: "tickets",
           position: "right",
@@ -104,6 +106,8 @@ const config: Config = {
           items: [
             {to: '/', label: 'About', position: 'right'},
             {to: '/#speakers', label: 'Speakers', position: 'right'},
+            {to: '/#networking', label: 'Networking', position: 'right'},
+            {to: '/#partners', label: 'Partners', position: 'right'},
           ],
         },
         {
