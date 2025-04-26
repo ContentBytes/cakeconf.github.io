@@ -14,22 +14,22 @@ type SpeakerItem = {
 
 const SpeakerList: SpeakerItem[] = [
   {
-    picture: "img/speakers/wojtek-aleksander.png",
-    name: "Name and surname",
-    desc: "role desc",
-    linkedIn: "https://google.pl",
+    picture: "img/speakers/anna-dulny-leszczynska.png",
+    name: "Anna Dulny-Leszczyńska",
+    desc: "UX designer, workshopper, accessibility advocate",
+    linkedIn: "https://www.linkedin.com/in/anna-dulny-leszczynska",
+  },
+  {
+    picture: "img/speakers/empty-card.png",
+    name: null,
+    desc: null,
+    linkedIn: null,
   },
   {
     picture: "img/speakers/wojtek-aleksander.png",
-    name: "Name and surname",
-    desc: "role desc",
-    linkedIn: "https://google.pl",
-  },
-  {
-    picture: "img/speakers/wojtek-aleksander.png",
-    name: "Name and surname",
-    desc: "role desc",
-    linkedIn: "https://google.pl",
+    name: "Wojtek Aleksander",
+    desc: "Content designer, UX writing trainer, published author",
+    linkedIn: "https://www.linkedin.com/in/waleksander",
   },
 ];
 
@@ -42,13 +42,13 @@ function Speaker({ picture, name, desc, linkedIn }: SpeakerItem) {
       <div className={styles.cardName}>{name}</div>
       <div>{desc}</div>
       <div className={styles.cardSocials}>
-        <Link to={linkedIn}>
+        {linkedIn && <Link to={linkedIn}>
           <img
             src="img/icons/linkedin.svg"
             alt="Go to LinkedIn profile"
             height="30"
           />
-        </Link>
+        </Link>}
       </div>
     </div>
   );
