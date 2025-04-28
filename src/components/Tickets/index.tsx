@@ -28,7 +28,7 @@ export function PersonalTicket() {
         <div className={clsx(styles.spaceBottom20, styles.ticketDesc)}>
           Ideal if you buy a single ticket for yourself
         </div>
-        <div className={styles.price}>PLN 100</div>
+        <div className={styles.price}>SOLD OUT</div>
         <div className={styles.spaceBottom20}>🐣 Early bird 🐣</div>
       </div>
       <div className={styles.explainer}>
@@ -51,7 +51,7 @@ export function CorporateTicket() {
         <div className={clsx(styles.spaceBottom20, styles.ticketDesc)}>
           Ideal if your employer pays for the tickets
         </div>
-        <div className={styles.price}>PLN 100 + VAT</div>
+        <div className={styles.price}>SOLD OUT</div>
         <div className={styles.spaceBottom20}>🐣 Early bird 🐣</div>
       </div>
       <div className={styles.explainer}>
