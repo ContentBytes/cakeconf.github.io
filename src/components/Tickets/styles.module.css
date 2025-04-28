@@ -85,3 +85,13 @@
 .space {
   padding-bottom: 300px;
 }
+
+.pill {
+  background-color: white;
+  color: black;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-align: center;
+  margin: 1rem;
+}

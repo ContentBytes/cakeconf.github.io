@@ -20,6 +20,10 @@ export function Button({ link, label }) {
   );
 }
 
+export function Pill ( { text }) {
+return <span className={styles.pill}> {text} </span>;
+}
+
 export function PersonalTicket() {
   return (
     <div className={styles.card}>
@@ -37,8 +41,10 @@ export function PersonalTicket() {
         <p>Ticket delivered straight to your inbox</p>
         <p>VAT-exempt</p>
       </div>
-      <div className={clsx(styles.center, styles.spaceBottom20)}>
-      <Button link={PersonalTicketLink} label="personal" /></div>
+    <div className={clsx(styles.center, styles.spaceBottom20)}>
+      <Pill text="Regular tickets coming soon"/>
+      {/* <Button link={PersonalTicketLink} label="personal" />*/}
+      </div>
     </div>
   );
 }
@@ -60,7 +66,9 @@ export function CorporateTicket() {
         <p>VAT 23%</p>
       </div>
       <div className={clsx(styles.center, styles.spaceBottom20)}>
-      <Button link={CorporateTicketLink} label="corporate" /></div>
+       <Pill text="Regular tickets coming soon"/>
+{/*      <Button link={CorporateTicketLink} label="corporate" />*/}
+      </div>
     </div>
   );
 }
