@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 import cakeStyles from "@site/src/pages/index.module.css";
 
 
-const PersonalTicketLink = 'https://www.naffy.io/cake-conf/cake-conf-early-bird-ticket';
+const PersonalTicketLink = 'https://www.naffy.io/cake-conf/cake-conf-regular-ticket';
 const CorporateTicketLink = 'corporateticket';
 
 export function Badge() {
@@ -32,8 +32,8 @@ export function PersonalTicket() {
         <div className={clsx(styles.spaceBottom20, styles.ticketDesc)}>
           Ideal if you buy a single ticket for yourself
         </div>
-        <div className={styles.price}>SOLD OUT</div>
-        <div className={styles.spaceBottom20}>🐣 Early bird 🐣</div>
+        <div className={styles.price}>PLN 290</div>
+        <div className={styles.spaceBottom20}>🐥 Regular bird 🐥</div>
       </div>
       <div className={styles.explainer}>
         <p>Single ticket only</p>
@@ -42,8 +42,7 @@ export function PersonalTicket() {
         <p>VAT-exempt</p>
       </div>
     <div className={clsx(styles.center, styles.spaceBottom20)}>
-      <Pill text="Regular tickets coming soon"/>
-      {/* <Button link={PersonalTicketLink} label="personal" />*/}
+      {<Button link={PersonalTicketLink} label="personal" />}
       </div>
     </div>
   );
@@ -57,8 +56,8 @@ export function CorporateTicket() {
         <div className={clsx(styles.spaceBottom20, styles.ticketDesc)}>
           Ideal if your employer pays for the tickets
         </div>
-        <div className={styles.price}>SOLD OUT</div>
-        <div className={styles.spaceBottom20}>🐣 Early bird 🐣</div>
+        <div className={styles.price}>PLN 290</div>
+        <div className={styles.spaceBottom20}>🐥 Regular bird 🐥</div>
       </div>
       <div className={styles.explainer}>
         <p>One or more tickets</p>
@@ -66,8 +65,7 @@ export function CorporateTicket() {
         <p>VAT 23%</p>
       </div>
       <div className={clsx(styles.center, styles.spaceBottom20)}>
-       <Pill text="Regular tickets coming soon"/>
-{/*      <Button link={CorporateTicketLink} label="corporate" />*/}
+{ <Button link={CorporateTicketLink} label="corporate" />}
       </div>
     </div>
   );
