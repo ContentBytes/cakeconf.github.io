@@ -31,6 +31,18 @@ const SpeakerList: SpeakerItem[] = [
     desc: "Content designer, UX writing trainer, published author",
     linkedIn: "https://www.linkedin.com/in/waleksander",
   },
+  {
+    picture: "img/speakers/pawel-kowaluk.png",
+    name: "Paweł Kowaluk",
+    desc: "ContentOps engineer, podcaster, technical writer",
+    linkedIn: "https://www.linkedin.com/in/pawel-kowaluk",
+  },
+  {
+    picture: "img/speakers/michal-skowron.png",
+    name: "Michał Skowron",
+    desc: "Doc tools developer, podcaster",
+    linkedIn: "https://www.linkedin.com/in/michalskowron",
+  },
 ];
 
 function Speaker({ picture, name, desc, linkedIn }: SpeakerItem) {
