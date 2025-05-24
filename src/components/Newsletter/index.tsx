@@ -10,14 +10,15 @@ export default function Newsletter() {
       <div className="container">
         <div className={styles.title}>Get latest updates</div>
         <div className={styles.center}>
-        <div className={styles.description}>
-          Get a fresh slice of CAKE news delivered straight to your inbox!
+          <div className={styles.description}>
+            Get a fresh slice of CAKE news delivered straight to your inbox!
+          </div>
+          <div className="ml-embedded" data-form="Y2XUya"></div>
+          <div className={styles.info}>
+            Can't see the form? Try refreshing the page or{" "}
+            <Link to={NewsletterForm}>open the form in a new tab</Link>.
+          </div>
         </div>
-        <div className="ml-embedded" data-form="Y2XUya"></div>
-        <div className={styles.info}>
-          Can't see the form? Try refreshing the page or{" "}
-          <Link to={NewsletterForm}>open the form in a new tab</Link>.
-        </div></div>
       </div>
     </div>
   );
