@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 import { ButtonWhite, ButtonBlack } from "../Button";
 
 
-const SignupForm = "https://forms.gle/4Z8qW1h58gCYDdLi7";
+const BecomeSpeakerLink = 'https://forms.gle/UYy9iFg5hw8hJQVeA';
 const Tickets = 'tickets';
 
 export default function About() {
@@ -36,7 +36,7 @@ export default function About() {
             <p>documentation, UX, accessibility, AI, storytelling, research</p>
           </div>
           <div className={clsx(styles.centerButtons, styles.spaceBottom)}>
-            <ButtonWhite link={SignupForm} label="🙋 Sign up for updates" />
+            <ButtonWhite link={BecomeSpeakerLink} label="🎙️  Become a speaker" />
             <div className={styles.divider} />
             <ButtonBlack link={Tickets} label="💥 Get tickets" />
           </div>
