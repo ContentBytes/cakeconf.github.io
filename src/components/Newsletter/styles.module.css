@@ -10,6 +10,10 @@
   padding-bottom: 50px;
 }
 
+.center {
+  justify-content: center;
+}
+
 .description {
   text-align: center;
   padding-bottom: 10px;
