@@ -1,7 +1,5 @@
 # CAKE conf
 
-CAKE conf is the best conference for all content enthusiasts!
+CAKE conf takes place in Kraków, Poland on 19-20 September 2025.
 
-## About the conference
-
-The conference takes place in Kraków in September.
+https://cakeconf.contentbytes.pl
