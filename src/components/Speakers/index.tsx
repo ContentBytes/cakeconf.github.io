@@ -14,18 +14,6 @@ type SpeakerItem = {
 
 const SpeakerList: SpeakerItem[] = [
   {
-    picture: "img/speakers/anna-dulny-leszczynska.png",
-    name: "Anna Dulny-Leszczyńska",
-    desc: "UX designer, workshopper, accessibility advocate",
-    linkedIn: "https://www.linkedin.com/in/anna-dulny-leszczynska",
-  },
-  {
-    picture: "img/speakers/empty-card.png",
-    name: null,
-    desc: null,
-    linkedIn: null,
-  },
-  {
     picture: "img/speakers/wojtek-aleksander.png",
     name: "Wojtek Aleksander",
     desc: "Content designer, UX writing trainer, published author",
@@ -42,6 +30,30 @@ const SpeakerList: SpeakerItem[] = [
     name: "Michał Skowron",
     desc: "Doc tools developer, podcaster",
     linkedIn: "https://www.linkedin.com/in/michalskowron",
+  },
+  {
+    picture: "img/speakers/ola-wieczorek.png",
+    name: "Ola Wieczorek-Konieczko",
+    desc: "Technical writer, documentation strategist",
+    linkedIn: "https://www.linkedin.com/in/techwriter-wieczorek/",
+  },
+  {
+    picture: "img/speakers/empty-card.png",
+    name: null,
+    desc: null,
+    linkedIn: null,
+  },
+  {
+    picture: "img/speakers/sergio.png",
+    name: "Sergio Valero Notari",
+    desc: "Content design manager, UX writing teacher",
+    linkedIn: "https://www.linkedin.com/in/servalnot/",
+  },
+  {
+    picture: "img/speakers/anna-dulny-leszczynska.png",
+    name: "Anna Dulny-Leszczyńska",
+    desc: "UX designer, workshopper, accessibility advocate",
+    linkedIn: "https://www.linkedin.com/in/anna-dulny-leszczynska",
   },
 ];
 
