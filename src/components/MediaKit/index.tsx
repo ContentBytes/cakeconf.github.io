@@ -22,19 +22,19 @@ const KitList: KitItem[] = [
     title: "Press release",
     desc: "One-pager explaining who we are and what we do",
     label: "📣 Get press release",
-    link: "string",
+    link: "https://docs.google.com/document/d/1T8umAXsi2QTFKP7BFqvoRtwmS4Dr0kMb3xquDsogJzw/edit?tab=t.0",
   },
   {
     title: "Logo",
-    desc: "CAKE conf logo to add to your website and other materials",
+    desc: "CAKE conf logo that you can add to your website and other materials",
     label: "🎨 Get logo",
-    link: "string",
+    link: "https://drive.google.com/drive/u/1/folders/1XCYf99HMLuhOLE_HjU19m4MvYbAE9CX3",
   },
   {
     title: "Social media package",
-    desc: "Materials that you can use on your social media, for example post and stories",
+    desc: "Materials that you can use on your social media, for example in posts and stories",
     label: "🤳 Get social media package",
-    link: "",
+    link: "https://drive.google.com/drive/u/1/folders/1D1khlpzSpOMehSKALSNdz0UPMYOrzz-3",
   },
 ];
 
