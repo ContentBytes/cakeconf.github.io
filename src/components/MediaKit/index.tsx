@@ -1,14 +1,11 @@
-import Layout from "@theme/Layout";
-import Link from "@docusaurus/Link";
-import type { ReactNode } from "react";
 import useBaseUrl from "@docusaurus/useBaseUrl";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 import { ButtonWhite } from "../Button";
 
 import CakeStyles from "@site/src/pages/index.module.css";
 import KitStyles from "./styles.module.css";
 import styles from "../Tickets/styles.module.css";
+
 
 type KitItem = {
   title: string;
@@ -75,7 +72,7 @@ export function Content() {
             className={KitStyles.image}
           />
           <img
-            src={useBaseUrl("img/audience.png")}
+            src={useBaseUrl("img/zamyslony-pk-w-duotones.png")}
             alt="Audience at Content Bytes meetup"
             className={KitStyles.image}
           />
