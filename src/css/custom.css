@@ -47,3 +47,19 @@
   border-radius: 10px;
   padding: 8px 20px;
 }
+
+.speaker-button {
+  background-color: white;
+  color: black;
+  border-color: rgb(215, 215, 215);
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 10px;
+  padding: 8px 20px;
+  margin-right: 10px;
+}
+
+.speaker-button:hover {
+  color: white;
+  background-color: black;
+}

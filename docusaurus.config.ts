@@ -86,6 +86,12 @@ const config: Config = {
         {to: '/#networking', label: 'Networking', position: 'right'},
         {to: '/#partners', label: 'Partners', position: 'right'},
         {
+          to: "call4speakers",
+          position: "right",
+          label: "🎙️ Become a speaker",
+          className: "speaker-button"
+        },
+        {
           to: "tickets",
           position: "right",
           label: "💥 Get tickets",

@@ -1,0 +1,52 @@
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding-bottom: 50px
+}
+
+.image {
+  width: 800px;
+  max-width: 100%;
+}
+
+.card {
+  border-color: white;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 1px 15px 15px 15px;
+  padding: 10px 20px;
+  margin: 20px 0px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+}
+
+.cardText {
+  width: 600px;
+  max-width: 100%;
+}
+
+.cards {
+  padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 996px) {
+  .columns {
+    flex-wrap: wrap;
+  }
+
+  .cardButton {
+    padding-bottom: 10px;
+  }
+}

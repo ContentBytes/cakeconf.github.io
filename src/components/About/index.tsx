@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 import { ButtonWhite, ButtonBlack } from "../Button";
 
 
-const BecomeSpeakerLink = 'https://forms.gle/UYy9iFg5hw8hJQVeA';
+const BecomeSpeakerLink = 'call4speakers';
 const Tickets = 'tickets';
 
 export default function About() {
