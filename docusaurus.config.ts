@@ -85,6 +85,7 @@ const config: Config = {
         {to: '/#speakers', label: 'Speakers', position: 'right'},
         {to: '/#networking', label: 'Networking', position: 'right'},
         {to: '/#partners', label: 'Partners', position: 'right'},
+        {to: 'media_kit', label: "Media kit", position: 'right'},
         {
           to: "call4speakers",
           position: "right",
