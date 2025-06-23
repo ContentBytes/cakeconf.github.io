@@ -2,12 +2,19 @@ import Link from "@docusaurus/Link";
 import styles from "./styles.module.css";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
-
 export default function Partners() {
   return (
-    <div id='partners' className={styles.background}>
+    <div id="partners" className={styles.background}>
       <div className={styles.title}>Media partners</div>
       <div className={styles.centerImgs}>
+        <Link to="https://techwriter.pl" title="Go to techwriter.pl">
+          <img
+            src={useBaseUrl("img/partners/techwriter-pl.png")}
+            alt="Go to techwriter.pl"
+            className={styles.image}
+          />
+        </Link>
+        <div className={styles.divider} />
         <Link
           to="https://techwriterkoduje.pl"
           title="Go to techwriterkoduje.pl"
@@ -19,10 +26,10 @@ export default function Partners() {
           />
         </Link>
         <div className={styles.divider} />
-        <Link to="https://techwriter.pl" title="Go to techwriter.pl">
+        <Link to="https://www.waysconf.com" title="Go to waysconf.com">
           <img
-            src={useBaseUrl("img/partners/techwriter-pl.png")}
-            alt="Go to techwriter.pl"
+            src={useBaseUrl("img/partners/ways.png")}
+            alt="Go to waysconf.com/"
             className={styles.image}
           />
         </Link>

@@ -23,7 +23,7 @@
   text-align: center;
   font-size: 2rem;
   font-family: "Caprasimo", serif;
-  padding: 100px;
+  padding: 100px 0;
 }
 
 @media only screen and (max-width: 996px) {
