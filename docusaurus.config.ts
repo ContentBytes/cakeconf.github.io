@@ -81,6 +81,7 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
+        {to: 'speakers', label: "Speakers", position: 'right'},
         {to: 'media_kit', label: "Media kit", position: 'right'},
         {
           to: "call4speakers",

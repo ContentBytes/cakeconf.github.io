@@ -33,7 +33,6 @@
   align-items: center;
   gap: 50px;
   flex-wrap: wrap;
-  padding-bottom: 100px;
 }
 
 .card {
@@ -53,4 +52,25 @@
 
 .cardSocials {
   padding-top: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 100px 0;
+}
+
+/* Subpage */
+
+.spacing {
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+.titleSubpage {
+  font-family: "Caprasimo", serif;
+  font-size: 2rem;
+  padding-top: 100px;
 }
