@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 /* Socials */
 const linkedinLink = "https://www.linkedin.com/company/content-bytes/";
@@ -81,6 +82,7 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
+        {to: '/', label: "Home", position: 'right'},
         {to: 'speakers', label: "Speakers", position: 'right'},
         {to: 'media_kit', label: "Partners", position: 'right'},
         {
