@@ -102,7 +102,7 @@ function Speaker({ picture, name, desc, linkedIn }: SpeakerItem) {
         {linkedIn && (
           <Link to={linkedIn}>
             <img
-              src="img/icons/linkedin.svg"
+              src={useBaseUrl("img/icons/linkedin.svg")}
               alt="Go to LinkedIn profile"
               height="30"
             />
@@ -141,7 +141,7 @@ export function Speakers() {
         <div className={styles.title}>Meet the speakers</div>
         <div className={styles.cardsAll}>{CreateCards()}</div>
         <div className={styles.buttons}>
-          <ButtonWhite link={BecomeSpeakerLink} label="🎙️  Become a speaker" />
+          <ButtonWhite link={BecomeSpeakerLink} label="🎙️ Become a speaker" />
           <ButtonBlack link={SeeAllSpeakers} label="👀 See all speakers" />
         </div>
       </div>
