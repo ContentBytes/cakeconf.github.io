@@ -82,7 +82,7 @@ const config: Config = {
       },
       items: [
         {to: 'speakers', label: "Speakers", position: 'right'},
-        {to: 'media_kit', label: "Media kit", position: 'right'},
+        {to: 'media_kit', label: "Partners", position: 'right'},
         {
           to: "call4speakers",
           position: "right",

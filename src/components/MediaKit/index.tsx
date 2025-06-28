@@ -61,7 +61,7 @@ export function Content() {
   return (
     <div className={CakeStyles.backgroundBlue}>
       <div className="container">
-        <div className={styles.title}>Media kit</div>
+        <div className={styles.title}>Partners</div>
         <div className={styles.subtitle}>
           Grab the information about CAKE conf.
         </div>
