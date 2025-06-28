@@ -33,7 +33,7 @@ export default function About() {
             uniting the content enthusiasts
           </p>
           <div className={clsx(styles.description, "padding-bottom--lg")}>
-            <p>documentation, UX, accessibility, AI, storytelling, management</p>
+            <p>documentation, UX writing, accessibility, AI, storytelling, management</p>
           </div>
           <div className={clsx(styles.centerButtons, styles.spaceBottom)}>
             <ButtonWhite link={BecomeSpeakerLink} label="🎙️  Become a speaker" />
