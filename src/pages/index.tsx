@@ -19,8 +19,8 @@ export default function Home(): ReactNode {
       <main>
         <About />
         <Speakers />
-        <Topics />
         <Companies />
+        <Topics />
         <Networking />
         <Partners />
         <Newsletter />

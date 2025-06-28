@@ -1,5 +1,6 @@
 .background {
-  background-color: #101010;
+  background-color: rgba(27, 27, 27, 1);
+  background-image: linear-gradient(100deg, rgba(27, 27, 27, 1) 0%, rgba(0, 49, 83, 1) 100%);
 }
 
 .title {
@@ -27,7 +28,7 @@
   max-width: 290px;
   text-align: left;
   color: black;
-  font-family: "Roboto Slab", serif;
+  font-weight: 300;
 }
 
 .icon {
@@ -36,10 +37,11 @@
 
 .cardTitle {
   font-size: 1.8rem;
-  font-weight: 800;
+  font-weight: 600;
   padding: 10px 0;
+  font-family: "Roboto Slab", serif;
 }
 
 .description {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
