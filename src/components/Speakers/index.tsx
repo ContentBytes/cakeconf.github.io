@@ -13,6 +13,7 @@ type SpeakerItem = {
   name: string;
   desc: string;
   linkedIn: string;
+  hover: Boolean;
 };
 
 const SpeakerList: SpeakerItem[] = [
@@ -21,78 +22,95 @@ const SpeakerList: SpeakerItem[] = [
     name: "Łukasz Górnicki",
     desc: "Consultant, speaker, trainer, open source expert",
     linkedIn: "https://www.linkedin.com/in/lukasz-gornicki-a621914",
+    hover: true,
   },
   {
     picture: "img/speakers/marcin-krzanicki.png",
     name: "Marcin Krzanicki",
     desc: "UX designer, lecturer, inclusion evangelist",
     linkedIn: "https://www.linkedin.com/in/marcinkrzanicki",
+    hover: true,
   },
   {
     picture: "img/speakers/tomek-prus.png",
     name: "Tomek Prus",
     desc: "Technical writer, content designer, UX writer",
     linkedIn: "https://www.linkedin.com/in/tomasz-prus-4b09b01a",
+    hover: true,
   },
   {
     picture: "img/speakers/ola-wieczorek.png",
     name: "Ola Wieczorek-Konieczko",
     desc: "Technical writer, documentation strategist",
     linkedIn: "https://www.linkedin.com/in/techwriter-wieczorek/",
+    hover: true,
   },
   {
     picture: "img/speakers/empty-card.png",
     name: null,
     desc: null,
     linkedIn: null,
+    hover: false,
   },
   {
     picture: "img/speakers/anna-dulny-leszczynska.png",
     name: "Anna Dulny-Leszczyńska",
     desc: "UX designer, workshopper, accessibility advocate",
     linkedIn: "https://www.linkedin.com/in/anna-dulny-leszczynska",
+    hover: true,
   },
   {
     picture: "img/speakers/wojtek-kutyla.png",
     name: "Wojtek Kutyła",
     desc: "Web accessibility specialist, WCAG auditor",
     linkedIn: "https://www.linkedin.com/in/wojtekkutyla",
+    hover: true,
   },
   {
     picture: "img/speakers/wojtek-aleksander.png",
     name: "Wojtek Aleksander",
     desc: "Content designer, UX writing trainer, published author",
     linkedIn: "https://www.linkedin.com/in/waleksander",
+    hover: true,
   },
   {
     picture: "img/speakers/sergio.png",
     name: "Sergio Valero Notari",
     desc: "Content design manager, UX writing teacher",
     linkedIn: "https://www.linkedin.com/in/servalnot/",
+    hover: true,
   },
   {
     picture: "img/speakers/pawel-kowaluk.png",
     name: "Paweł Kowaluk",
     desc: "ContentOps engineer, podcaster, technical writer",
     linkedIn: "https://www.linkedin.com/in/pawel-kowaluk",
+    hover: true,
   },
   {
     picture: "img/speakers/empty-card.png",
     name: null,
     desc: null,
     linkedIn: null,
+    hover: false,
   },
   {
     picture: "img/speakers/michal-skowron.png",
     name: "Michał Skowron",
     desc: "Doc tools developer, podcaster",
     linkedIn: "https://www.linkedin.com/in/michalskowron",
+    hover: true,
   },
 ];
 
-function Speaker({ picture, name, desc, linkedIn }: SpeakerItem) {
+function Speaker({ picture, name, desc, linkedIn, hover }: SpeakerItem) {
+  const cardStyling = clsx(
+    styles.card, {
+    [styles.effect]: hover,
+  })
+
   return (
-    <div className={styles.card}>
+    <div className={cardStyling}>
       <div>
         <img src={useBaseUrl(picture)}></img>
       </div>
@@ -100,13 +118,8 @@ function Speaker({ picture, name, desc, linkedIn }: SpeakerItem) {
       <div>{desc}</div>
       <div className={styles.cardSocials}>
         {linkedIn && (
-          <Link to={linkedIn}>
-            <img
-              src={useBaseUrl("img/icons/linkedin.svg")}
-              alt="Go to LinkedIn profile"
-              height="30"
-            />
-          </Link>
+          <span className={styles.iconLI}><Link to={linkedIn}>
+          </Link></span>
         )}
       </div>
     </div>
@@ -124,7 +137,7 @@ function CreateCardsAll() {
 }
 
 function CreateCards() {
-  const ShortList = SpeakerList.slice(0,6);
+  const ShortList = SpeakerList.slice(0, 6);
   return (
     <div className={styles.cardsAll}>
       {ShortList.map((props, idx) => (

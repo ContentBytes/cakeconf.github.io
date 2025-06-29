@@ -45,6 +45,21 @@
   text-align: center;
 }
 
+.effect:hover {
+  background-color: #013153;
+  color: white;
+  border: 1px solid #9C9C9C;
+}
+
+.iconLI {
+  mask: url(/img/icons/linkedin.svg);
+  mask-size: cover;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: currentColor;
+}
+
 .cardName {
   font-weight: 800;
   padding: 30px;
