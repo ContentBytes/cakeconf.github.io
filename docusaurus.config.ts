@@ -111,9 +111,8 @@ const config: Config = {
           title: 'CAKE conf',
           items: [
             {to: '/', label: 'About', position: 'right'},
-            {to: '/#speakers', label: 'Speakers', position: 'right'},
-            {to: '/#networking', label: 'Networking', position: 'right'},
-            {to: '/#partners', label: 'Partners', position: 'right'},
+            {to: 'speakers', label: 'Speakers', position: 'right'},
+            {to: 'media_kit', label: 'Partners', position: 'right'},
           ],
         },
         {
@@ -131,6 +130,12 @@ const config: Config = {
               label: "LinkedIn",
               href: linkedinLink,
             },
+          ],
+        },
+        {
+          title: 'Contact us',
+          items: [
+            {to: 'mailto:hello@contentbytes.pl', label: 'hello@contentbytes.pl'}
           ],
         },
       ],
