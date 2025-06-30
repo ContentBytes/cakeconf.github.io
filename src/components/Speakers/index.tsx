@@ -18,6 +18,20 @@ type SpeakerItem = {
 
 const SpeakerList: SpeakerItem[] = [
   {
+    picture: "img/speakers/nachu.png",
+    name: "Nachu Herrera",
+    desc: "UX content designer",
+    linkedIn: "https://www.linkedin.com/in/herreranadiam",
+    hover: true,
+  },
+  {
+    picture: "img/speakers/dariusz-drezno.png",
+    name: "Dariusz Drezno",
+    desc: "Speaker, trainer, accessibility expert",
+    linkedIn: "https://www.linkedin.com/in/dariusz-drezno",
+    hover: true,
+  },
+  {
     picture: "img/speakers/lukasz-gornicki.png",
     name: "Łukasz Górnicki",
     desc: "Consultant, speaker, trainer, open source expert",
@@ -32,6 +46,13 @@ const SpeakerList: SpeakerItem[] = [
     hover: true,
   },
   {
+    picture: "img/speakers/empty-card.png",
+    name: null,
+    desc: null,
+    linkedIn: null,
+    hover: false,
+  },
+  {
     picture: "img/speakers/tomek-prus.png",
     name: "Tomek Prus",
     desc: "Technical writer, content designer, UX writer",
@@ -44,13 +65,6 @@ const SpeakerList: SpeakerItem[] = [
     desc: "Technical writer, documentation strategist",
     linkedIn: "https://www.linkedin.com/in/techwriter-wieczorek/",
     hover: true,
-  },
-  {
-    picture: "img/speakers/empty-card.png",
-    name: null,
-    desc: null,
-    linkedIn: null,
-    hover: false,
   },
   {
     picture: "img/speakers/anna-dulny-leszczynska.png",
@@ -74,6 +88,13 @@ const SpeakerList: SpeakerItem[] = [
     hover: true,
   },
   {
+    picture: "img/speakers/empty-card.png",
+    name: null,
+    desc: null,
+    linkedIn: null,
+    hover: false,
+  },
+  {
     picture: "img/speakers/sergio.png",
     name: "Sergio Valero Notari",
     desc: "Content design manager, UX writing teacher",
@@ -86,13 +107,6 @@ const SpeakerList: SpeakerItem[] = [
     desc: "ContentOps engineer, podcaster, technical writer",
     linkedIn: "https://www.linkedin.com/in/pawel-kowaluk",
     hover: true,
-  },
-  {
-    picture: "img/speakers/empty-card.png",
-    name: null,
-    desc: null,
-    linkedIn: null,
-    hover: false,
   },
   {
     picture: "img/speakers/michal-skowron.png",
