@@ -86,12 +86,6 @@ const config: Config = {
         {to: 'speakers', label: "Speakers", position: 'right'},
         {to: 'media_kit', label: "Partners", position: 'right'},
         {
-          to: "call4speakers",
-          position: "right",
-          label: "🎙️ Become a speaker",
-          className: "speaker-button"
-        },
-        {
           to: "tickets",
           position: "right",
           label: "💥 Get tickets",

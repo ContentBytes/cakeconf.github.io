@@ -36,8 +36,6 @@ export default function About() {
             <p>documentation, UX writing, accessibility, AI, storytelling, management</p>
           </div>
           <div className={clsx(styles.centerButtons, styles.spaceBottom)}>
-            <ButtonWhite link={BecomeSpeakerLink} label="🎙️  Become a speaker" />
-            <div className={styles.divider} />
             <ButtonBlack link={Tickets} label="💥 Get tickets" />
           </div>
         </div>
