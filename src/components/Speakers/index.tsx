@@ -168,7 +168,6 @@ export function Speakers() {
         <div className={styles.title}>Meet the speakers</div>
         <div className={styles.cardsAll}>{CreateCards()}</div>
         <div className={styles.buttons}>
-          <ButtonWhite link={BecomeSpeakerLink} label="🎙️ Become a speaker" />
           <ButtonBlack link={SeeAllSpeakers} label="👀 See all speakers" />
         </div>
       </div>
