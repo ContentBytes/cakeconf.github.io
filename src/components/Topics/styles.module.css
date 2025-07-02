@@ -36,12 +36,12 @@
 }
 
 .cardTitle {
-  font-size: 1.8rem;
+  font-size: 20px;
   font-weight: 600;
   padding: 10px 0;
   font-family: "Roboto Slab", serif;
 }
 
 .description {
-  font-size: 1rem;
+  font-size: 16px;
 }
