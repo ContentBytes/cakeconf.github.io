@@ -49,6 +49,12 @@
   padding: 8px 20px;
 }
 
+.tickets-button:hover {
+  color: #E5F6E6;
+  background-color: #292929;
+  cursor: pointer;
+}
+
 .speaker-button {
   background-color: white;
   color: black;
