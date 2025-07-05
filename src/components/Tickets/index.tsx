@@ -6,7 +6,7 @@ import cakeStyles from "@site/src/pages/index.module.css";
 
 
 const PersonalTicketLink = 'https://www.naffy.io/cake-conf/cake-conf-regular-ticket';
-const CorporateTicketLink = 'corporateticket';
+const CorporateTicketLink = '/corporateticket';
 
 export function Badge() {
   return <span className={styles.badge}>Limited amount!</span>;
