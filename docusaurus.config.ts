@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
@@ -61,7 +61,7 @@ const config: Config = {
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: ['./src/css/custom.css', './src/css/subpage.css']
         },
       } satisfies Preset.Options,
     ],
@@ -82,9 +82,10 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {to: '/', label: "Home", position: 'right'},
-        {to: 'speakers', label: "Speakers", position: 'right'},
-        {to: 'media_kit', label: "Partners", position: 'right'},
+        { to: '/', label: "Home", position: 'right' },
+        { to: 'agenda', label: 'Agenda', position: 'right' },
+        { to: 'speakers', label: "Speakers", position: 'right' },
+        { to: 'media_kit', label: "Partners", position: 'right' },
         {
           to: "tickets",
           position: "right",
@@ -104,9 +105,9 @@ const config: Config = {
         {
           title: 'CAKE conf',
           items: [
-            {to: '/', label: 'About', position: 'right'},
-            {to: 'speakers', label: 'Speakers', position: 'right'},
-            {to: 'media_kit', label: 'Partners', position: 'right'},
+            { to: '/', label: 'About', position: 'right' },
+            { to: 'speakers', label: 'Speakers', position: 'right' },
+            { to: 'media_kit', label: 'Partners', position: 'right' },
           ],
         },
         {
@@ -114,7 +115,7 @@ const config: Config = {
           items: [
             {
               label: "Instagram",
-              href: instagramLink, 
+              href: instagramLink,
             },
             {
               label: "Facebook",
@@ -129,7 +130,7 @@ const config: Config = {
         {
           title: 'Contact us',
           items: [
-            {to: 'mailto:hello@contentbytes.pl', label: 'hello@contentbytes.pl'}
+            { to: 'mailto:hello@contentbytes.pl', label: 'hello@contentbytes.pl' }
           ],
         },
       ],

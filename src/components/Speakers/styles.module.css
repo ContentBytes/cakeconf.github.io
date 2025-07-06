@@ -33,6 +33,7 @@
   align-items: center;
   gap: 50px;
   flex-wrap: wrap;
+  align-items: stretch;
 }
 
 .card {
@@ -43,6 +44,20 @@
   max-width: 310px;
   max-height: 520px;
   text-align: center;
+}
+
+.link {
+  --ifm-link-color: black;
+  --ifm-link-hover-color: white;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.card:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .effect:hover {

@@ -4,6 +4,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 
 import { ButtonWhite, ButtonBlack } from "../Button";
 import styles from "./styles.module.css";
+import { ReactElement } from 'react';
 
 const BecomeSpeakerLink = "call4speakers";
 const SeeAllSpeakers = "speakers";
@@ -11,18 +12,20 @@ const SeeAllSpeakers = "speakers";
 type SpeakerItem = {
   picture: string;
   name: string;
-  desc: string;
+  desc: React.ReactNode;
   linkedIn: string;
   hover: Boolean;
+  url?: string;
 };
 
 const SpeakerList: SpeakerItem[] = [
   {
     picture: "img/speakers/nachu.png",
     name: "Nachu Herrera",
-    desc: "UX content designer",
+    desc: (<>UX content <br/> designer</>),
     linkedIn: "https://www.linkedin.com/in/herreranadiam",
     hover: true,
+    url: "agenda/nachu-herrera",
   },
   {
     picture: "img/speakers/dariusz-drezno.png",
@@ -30,6 +33,7 @@ const SpeakerList: SpeakerItem[] = [
     desc: "Speaker, trainer, accessibility expert",
     linkedIn: "https://www.linkedin.com/in/dariusz-drezno",
     hover: true,
+    url: "agenda/dariusz-drezno",
   },
   {
     picture: "img/speakers/lukasz-gornicki.png",
@@ -37,6 +41,7 @@ const SpeakerList: SpeakerItem[] = [
     desc: "Consultant, speaker, trainer, open source expert",
     linkedIn: "https://www.linkedin.com/in/lukasz-gornicki-a621914",
     hover: true,
+    url: "agenda/lukasz-gornicki",
   },
   {
     picture: "img/speakers/marcin-krzanicki.png",
@@ -44,6 +49,7 @@ const SpeakerList: SpeakerItem[] = [
     desc: "UX designer, lecturer, inclusion evangelist",
     linkedIn: "https://www.linkedin.com/in/marcinkrzanicki",
     hover: true,
+    url: "agenda/marcin-krzanicki",
   },
   {
     picture: "img/speakers/empty-card.png",
@@ -58,6 +64,7 @@ const SpeakerList: SpeakerItem[] = [
     desc: "Technical writer, content designer, UX writer",
     linkedIn: "https://www.linkedin.com/in/tomasz-prus-4b09b01a",
     hover: true,
+    url: "agenda/tomek-prus",
   },
   {
     picture: "img/speakers/ola-wieczorek.png",
@@ -65,6 +72,7 @@ const SpeakerList: SpeakerItem[] = [
     desc: "Technical writer, documentation strategist",
     linkedIn: "https://www.linkedin.com/in/techwriter-wieczorek/",
     hover: true,
+    url: "agenda/aleksandra-wieczorek-konieczko",
   },
   {
     picture: "img/speakers/anna-dulny-leszczynska.png",
@@ -72,6 +80,7 @@ const SpeakerList: SpeakerItem[] = [
     desc: "UX designer, workshopper, accessibility advocate",
     linkedIn: "https://www.linkedin.com/in/anna-dulny-leszczynska",
     hover: true,
+    url: "agenda/anna-dulny-leszczynska",
   },
   {
     picture: "img/speakers/wojtek-kutyla.png",
@@ -79,6 +88,7 @@ const SpeakerList: SpeakerItem[] = [
     desc: "Web accessibility specialist, WCAG auditor",
     linkedIn: "https://www.linkedin.com/in/wojtekkutyla",
     hover: true,
+    url: "agenda/wojtek-kutyla",
   },
   {
     picture: "img/speakers/wojtek-aleksander.png",
@@ -86,6 +96,7 @@ const SpeakerList: SpeakerItem[] = [
     desc: "Content designer, UX writing trainer, published author",
     linkedIn: "https://www.linkedin.com/in/waleksander",
     hover: true,
+    url: "agenda/wojtek-aleksander",
   },
   {
     picture: "img/speakers/empty-card.png",
@@ -100,6 +111,7 @@ const SpeakerList: SpeakerItem[] = [
     desc: "Content design manager, UX writing teacher",
     linkedIn: "https://www.linkedin.com/in/servalnot/",
     hover: true,
+    url: "agenda/sergio-valero-notari",
   },
   {
     picture: "img/speakers/pawel-kowaluk.png",
@@ -107,6 +119,7 @@ const SpeakerList: SpeakerItem[] = [
     desc: "ContentOps engineer, podcaster, technical writer",
     linkedIn: "https://www.linkedin.com/in/pawel-kowaluk",
     hover: true,
+    url: "agenda/michal-skowron-pawel-kowaluk",
   },
   {
     picture: "img/speakers/michal-skowron.png",
@@ -114,10 +127,11 @@ const SpeakerList: SpeakerItem[] = [
     desc: "Doc tools developer, podcaster",
     linkedIn: "https://www.linkedin.com/in/michalskowron",
     hover: true,
+    url: "agenda/michal-skowron-pawel-kowaluk",
   },
 ];
 
-function Speaker({ picture, name, desc, linkedIn, hover }: SpeakerItem) {
+function Speaker({ picture, name, desc, linkedIn, hover, url }: SpeakerItem) {
   const cardStyling = clsx(
     styles.card, {
     [styles.effect]: hover,
@@ -125,18 +139,20 @@ function Speaker({ picture, name, desc, linkedIn, hover }: SpeakerItem) {
 
   return (
     <div className={cardStyling}>
-      <div>
-        <img src={useBaseUrl(picture)}></img>
-      </div>
-      <div className={styles.cardName}>{name}</div>
-      <div>{desc}</div>
+      <Link className={styles.link} to={url}>
+        <div>
+          <img src={useBaseUrl(picture)}></img>
+        </div>
+        <div className={styles.cardName}>{name}</div>
+        <div>{desc}</div>
+      </Link>
       <div className={styles.cardSocials}>
         {linkedIn && (
-          <span className={styles.iconLI}><Link to={linkedIn}>
-          </Link></span>
+          <Link className={styles.iconLI} to={linkedIn}></Link>
         )}
       </div>
     </div>
+
   );
 }
 

@@ -8,6 +8,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 /* You can override the default Infima variables here. */
 :root {
@@ -23,6 +24,7 @@
   /* Customized */
   --ifm-font-family-base: 'Roboto Mono';
   --ifm-navbar-link-hover-color: white;
+  --ifm-tabs-color-active: #06F109;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
