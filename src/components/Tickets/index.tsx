@@ -5,8 +5,11 @@ import styles from "./styles.module.css";
 import cakeStyles from "@site/src/pages/index.module.css";
 
 
-const PersonalTicketLink = 'https://www.naffy.io/cake-conf/cake-conf-regular-ticket';
+const PersonalTicketLink = 'https://www.naffy.io/cake-conf/cake-conf-late-bird-ticket';
+
 const CorporateTicketLink = '/corporateticket';
+const TicketPrice = "PLN 450";
+const TicketType = "🐔 Late bird 🐔";
 
 export function Badge() {
   return <span className={styles.badge}>Limited amount!</span>;
@@ -32,8 +35,8 @@ export function PersonalTicket() {
         <div className={clsx(styles.spaceBottom20, styles.ticketDesc)}>
           Ideal if you buy a single ticket for yourself
         </div>
-        <div className={styles.price}>PLN 290</div>
-        <div className={styles.spaceBottom20}>🐥 Regular bird 🐥</div>
+        <div className={styles.price}>{TicketPrice}</div>
+        <div className={styles.spaceBottom20}>{TicketType}</div>
       </div>
       <div className={styles.explainer}>
         <p>Single ticket only</p>
@@ -56,8 +59,8 @@ export function CorporateTicket() {
         <div className={clsx(styles.spaceBottom20, styles.ticketDesc)}>
           Ideal if your employer pays for the tickets
         </div>
-        <div className={styles.price}>PLN 290</div>
-        <div className={styles.spaceBottom20}>🐥 Regular bird 🐥</div>
+        <div className={styles.price}>{TicketPrice}</div>
+        <div className={styles.spaceBottom20}>{TicketType}</div>
       </div>
       <div className={styles.explainer}>
         <p>One or more tickets</p>
