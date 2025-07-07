@@ -62,6 +62,7 @@
 
 .iconLI:hover {
   background-color: white;
+  cursor: pointer;
 }
 
 .cardName {

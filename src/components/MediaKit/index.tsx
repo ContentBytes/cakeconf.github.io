@@ -67,7 +67,7 @@ export function Content() {
         </div>
         <div className={KitStyles.images}>
           <img
-            src={useBaseUrl("img/cake-promo-card.svg")}
+            src={useBaseUrl("img/cake-promo-card.png")}
             alt="Information about CAKE conf"
             className={KitStyles.image}
           />
