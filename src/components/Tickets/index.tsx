@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 import cakeStyles from "@site/src/pages/index.module.css";
 
 
-const PersonalTicketLink = 'https://www.naffy.io/cake-conf/cake-conf-regular-ticket';
+const PersonalTicketLink = 'https://www.naffy.io/cake-conf/cake-conf-late-bird-ticket';
 
 const CorporateTicketLink = '/corporateticket';
 const TicketPrice = "PLN 450";
