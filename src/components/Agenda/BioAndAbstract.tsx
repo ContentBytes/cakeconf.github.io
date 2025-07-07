@@ -10,25 +10,25 @@ type TopicInfoProps = {
 export const BioAndAbstract: TopicInfoProps[] = [
   {
     speaker: "Wojtek Aleksander",
-    bio: "Wojtek has been shaping the digital world for almost 25 years, giving it an increasingly human dimension. Whether he supports the complex tech products, banking, or healthcare, he erases the technological dryness of the services and products. His professional radar always pings when it spots inclusion and accessibility issues. In his product career, he has worked in many specialties and at various levels, e.g., as an individual contributor or content team leader. In December 2023, he published the book “UX writing. The power of language in digital products” (in Polish). He is a philologist and IT expert by training. After hours, you will find him strolling by the sea, reading a comic book, or playing air guitar with his headphones on.",
+    bio: "Wojtek has been shaping the digital world for almost 25 years, giving it an increasingly human dimension. Whether he supports the complex tech products, banking, or healthcare, he erases the technological dryness of the services and products. His professional radar always pings when it spots inclusion and accessibility issues. In his product career, he has worked in many specialties and at various levels - from an individual contributor to a content team leader. In December 2023, he published the book “UX writing. The power of language in digital products” (in Polish). He is a philologist and IT expert by training. After hours, you will find him strolling by the sea, reading a comic book, or playing air guitar with his headphones on.",
     abstract: "In content design, words don't just inform — they shape decisions. This talk explores three core linguistic strategies that guide user behavior: the language of features, the language of benefits, and the language of loss. You’ll learn how each “narrative” influences perception, motivation, and trust. Is any of the three strategies superior? Where is the border between persuasion and manipulation? Can one feature tell three different stories — and should it? Packed with real-world examples, insights from psychology, and ethical design, this session will attempt to answer those questions for anyone who shapes digital conversations. ",
     url: "agenda/wojtek-aleksander",
   },
   {
     speaker: "Tomek Prus",
-    bio: "Tomek has been in TechComm for over 15 years, actively building the Polish content community and holding various roles across the software industry. He is currently a Senior Content Designer at Atlassian, where he focuses on creating impactful content that supports a range of products and services. Tomek is passionate about fostering a culture of collaboration, autonomy, and inclusivity — both within teams and across organizations.",
+    bio: "Tomek has been in TechComm for over 15 years, actively building the Polish content community and holding various roles across the software industry. Tomek is passionate about fostering a culture of collaboration, autonomy, and inclusivity — both within teams and across organizations.",
     abstract: "Coming soon",
     url: "agenda/tomek-prus",
   },
   {
     speaker: "Pieterjan Benoit",
-    bio: 'Content designer at Docplanner. Belgian in Krakow. Fan of billiards, long-form podcast interviews, and the Oxford comma',
+    bio: 'Content designer at Docplanner. Belgian in Kraków. Fan of billiards, long-form podcast interviews, and the Oxford comma.',
     abstract: 'Our lives have become increasingly digital and for nearly every problem you now have a wide range of different digital solutions. For a product to stand out and create a bond with the user, you have to show the value of your product and show it fast. To get off on the right foot and nail that first impression, onboarding is a crucial and decisive step that can make or break it. In this talk, I’ll connect a few dots and share some thoughts about the importance of content design and UX writing in the development of an onboarding experience that will be the start of a long and healthy relationship with your users.',
     url: "agenda/pieterjan-benoit",
   },
   {
     speaker: "Wojtek Kutyła",
-    bio: "Wojtek Kutyła is a consultant specializing in digital accessibility and UX. Under the Human Thing Ltd brand, he leads workshops and supports the development of inclusive digital products. Based in Edinburgh, he collaborates with a wide range of international organizations. He is the author of Web accessibility. Wprowadzenie do dostępności cyfrowej and wojtekutyla.pl blog, where he writes about accessibility in software development.",
+    bio: "Wojtek Kutyła is a consultant specializing in digital accessibility and UX. Under the Human Thing Ltd brand, he leads workshops and supports the development of inclusive digital products. Based in Edinburgh, he collaborates with a wide range of international organizations. He is the author of "Web accessibility. Wprowadzenie do dostępności cyfrowej" and <Link to="https://wojtekkutyla.blog">wojtekkutyla.blog</Link>, where he writes about accessibility in software development.",
     abstract: "Contrary to popular belief, web accessibility is not something reserved for web developers or UX folks. It's paramount to write good, accessible content, from tiny messages to large, elaborate pieces of copy. To have a fulfilling and pleasant dialogue with our users, regardless of who or where they are. What does this even mean? How can we do it? And what are some of the things related to this subject that you might not have thought about before? Let's focus on creating accessible, fulfilling experiences in the context of how we write for the web. ",
     url: "agenda/wojtek-kutyla",
   },
@@ -108,18 +108,18 @@ export const BioAndAbstract: TopicInfoProps[] = [
   {
     speaker: "Magdalena Michalak",
     bio: "Technical and UX writer and AI enthusiast",
-    abstract: "Your users aren't browsing docs anymore—they're asking AI for instant answers. It's time to prepare your content for this new audience: Large Language Models.",
+    abstract: "Your users aren't browsing docs anymore — they're asking AI for instant answers. It's time to prepare your content for this new audience: Large Language Models.",
     url: "agenda/magadalena-michalak",
   },
   {
     speaker: "Nachu Herrera",
-    bio: "Nachu is a Content Designer with nearly five years of experience.Currently working at Docplanner, she was previously the first UX Writer at Movistar Argentina, one of the biggest telecom companies in the country, where she helped shape a more consistent voice across the mobile app.Born in a small town on the outskirts of Buenos Aires, she traded the comfort of familiar streets and a single language for the vibrant noise of Barcelona—where life and work flow in many accents. Today, she collaborates with teammates from over seven countries, building bridges through content in a company that never speaks just one way.",
+    bio: "Nachu is a Content Designer with nearly five years of experience. Currently working at Docplanner, she was previously the first UX Writer at Movistar Argentina, one of the biggest telecom companies in the country, where she helped shape a more consistent voice across the mobile app. Born in a small town on the outskirts of Buenos Aires, she traded the comfort of familiar streets and a single language for the vibrant noise of Barcelona, where life and work flow in many accents. Today, she collaborates with teammates from over seven countries, building bridges through content in a company that never speaks just one way.",
     abstract: (
       <>
-        <p>What happens when a Content Designer from a small town near Buenos Aires—who used to design content in one language for one audience—suddenly finds herself creating English copies keeping in mind they will be localized into many languages?</p>
-        <p>In this talk, Nachu will share her journey from being the first UX Writer at Movistar Argentina—one of the country's largest telecommunications companies—to working at Docplanner, an international digital healthcare company present in over 13 markets across Europe and Latin America.</p>
+        <p>What happens when a Content Designer from a small town near Buenos Aires, who used to design content in one language for one audience, suddenly finds herself creating English copies, keeping in mind they will be localized into many languages?</p>
+        <p>In this talk, Nachu will share her journey from being the first UX Writer at Movistar Argentina — one of the country's largest telecommunications companies — to working at Docplanner, an international digital healthcare company present in over 13 markets across Europe and Latin America.</p>
         <p>At Movistar, she focused on shaping a consistent voice in Rioplatense Spanish. Now, she designs content in English that is localized into 12+ languages.</p>
-        <p>She will explore the challenges, trade-offs, and lessons from moving between these two worlds—from local voice ownership to localization-ready writing, and from speed and comfort to process maturity and adventure!</p>
+        <p>She will explore the challenges, trade-offs, and lessons from moving between these two worlds — from local voice ownership to localization-ready writing, and from speed and comfort to process maturity and adventure!</p>
       </>),
   url: "agenda/nachu-herrera",
   },

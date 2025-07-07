@@ -15,7 +15,7 @@ export const AgendaItems: CardProps[] = [
     time: `9:30${'\u2013'}11:30`,
   },
   {
-    category: "Documentation",
+    category: "UX writing",
     title: "Collaborative content design with a user in mind",
     speaker: "Tomek Prus",
     time: `12:00${'\u2013'}12:30`,
