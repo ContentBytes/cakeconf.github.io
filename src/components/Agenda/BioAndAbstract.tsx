@@ -130,11 +130,11 @@ export const BioAndAbstract: TopicInfoProps[] = [
     speaker: "Dagmara Szol",
     bio: (
       <>
-        <p>Creative Brand Management and CEO of Creative Mess ${'\u2013'} a guide to the world of technology and its creative application in building a brand. For over 10 years, I have been combining my knowledge of IT, design, and communication in international startups and large corporations. Now, I am translating my experience into managing online chaos for online creators, personal brands, and small and medium-sized businesses.</p>
+        <p>Creative Brand Management and CEO of Creative Mess – a guide to the world of technology and its creative application in building a brand. For over 10 years, I have been combining my knowledge of IT, design, and communication in international startups and large corporations. Now, I am translating my experience into managing online chaos for online creators, personal brands, and small and medium-sized businesses.</p>
         <p>As Creative Mess, I help companies create space for growth and promote it in the online world.</p>
         <p>When I'm not sitting at my laptop, I'm probably reading books, drinking specialty coffee, or riding my bike. Or traveling the world with my book and laptop.</p>
       </>),
-    abstract: "Coming soon",
+    abstract: "In 2025 your portfolio is not enough to build the trust about your work and get new clients. Discover 5 tips of building your creative brand based on my own story.",
     url: "agenda/dagmara-szol",
   },
   {
@@ -184,5 +184,16 @@ export const BioAndAbstract: TopicInfoProps[] = [
     <p>In this talk, I'm going to identify and discuss the main formal and stylistic traits of release notes. To this end, I'm going to compare various release notes produced by various companies and targeted at various audiences. I'm also going to compare release notes with other types of content that technical writers create on a daily basis.</p>
     </>),
     url: "agenda/adam-turlej",
+  },
+  {
+    speaker: "Sara Grądziel",
+    bio: "UX/UI designer, accessibility advocate, digital inclusion specialist",
+    abstract: (
+      <>
+      <p>Accessibility doesn't have to be slow, complicated, or reserved for specialists. What if making your website inclusive could be as simple, and fast, as running a spellcheck?  In this session, we’ll explore how AI transforms accessibility from a checkbox chore into an intuitive, real-time partner that empowers teams and protects users.</p>
+      <p>With real-time audits, smart code suggestions, and seamless integration into existing workflows, modern tools are making it easier than ever for teams to build accessible experiences from the start. We’ll share how automation can reduce costs, remove bottlenecks, and empower designers and developers - proving that accessibility can be fast, affordable, and part of everyone’s life.</p>
+      <p>Together, we’ll uncover how automation makes inclusion scalable, affordable, and precise - so teams of any size, from nimble startups to global enterprises, can truly embed accessibility into their DNA.</p>
+      </>
+    ),
   }
 ];

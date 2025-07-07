@@ -112,11 +112,11 @@ export const AgendaItems: CardProps[] = [
     url: "agenda/nachu-herrera",
   },
   {
-    category: "Documentation",
-    title: "Release note: A technical writing genre of its own?",
-    speaker: "Adam Turlej",
+    category: "Accessibility",
+    title: "Instant accessibility: what happens when AI automates inclusion",
+    speaker: "Sara Grądziel",
     time: `16:15${'\u2013'}16:35`,
-    url: "agenda/adam-turlej"
+    url: "agenda/sara-gradziel",
   },
   {
     category: "Storytelling",
@@ -124,5 +124,12 @@ export const AgendaItems: CardProps[] = [
     speaker: "Dagmara Szol",
     time: `16:35${'\u2013'}17:05`,
     url: "agenda/dagmara-szol"
+  },
+  {
+    category: "Documentation",
+    title: "Release note: A technical writing genre of its own?",
+    speaker: "Adam Turlej",
+    time: `17:05${'\u2013'}17:25`,
+    url: "agenda/adam-turlej"
   },
 ];
