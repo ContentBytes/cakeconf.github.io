@@ -2,6 +2,26 @@ import Link from "@docusaurus/Link";
 import styles from "./styles.module.css";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
+import { PartnerItem } from './Partners';
+
+export type PartnerProps = {
+  link: string;
+  img: string;
+  alt: string;
+};
+
+function CreateParner({ link, img, alt }: PartnerProps ) {
+  return (
+    <Link to={link} title={alt}>
+      <img
+        src={useBaseUrl(img)}
+        alt={alt}
+        className={styles.image}
+        />
+    </Link>
+  )
+} 
+
 export default function Partners() {
   return (
     <div id="partners" className={styles.background}>
@@ -33,6 +53,15 @@ export default function Partners() {
             className={styles.image}
           />
         </Link>
+        <div className={styles.divider} />
+        <Link to="https://saiit.odoo.com" title="Go to SAiIT website">
+          <img
+            src={useBaseUrl("img/partners/saiit.png")}
+            alt="Go to SAiIT website"
+            className={styles.image}
+          />
+        </Link>
+        <div className={styles.divider} />
       </div>
     </div>
   );
