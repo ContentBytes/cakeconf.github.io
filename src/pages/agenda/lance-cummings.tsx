@@ -13,7 +13,7 @@ const Name = BioAndAbstract[7]["speaker"];
 const Bio = BioAndAbstract[7]["bio"];
 const Abstract = BioAndAbstract[7]["abstract"];
 
-const Picture = "img/favicon.svg";
+const Picture = "img/speakers/lance-cummings.png";
 
 export default function Speaker(): ReactNode {
   const { siteConfig } = useDocusaurusContext();

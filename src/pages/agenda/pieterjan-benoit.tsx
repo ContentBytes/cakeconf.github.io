@@ -13,7 +13,7 @@ const Name = BioAndAbstract[2]["speaker"];
 const Bio = BioAndAbstract[2]["bio"];
 const Abstract = BioAndAbstract[2]["abstract"];
 
-const Picture = "img/favicon.svg";
+const Picture = "img/speakers/pieterjan-benoit.png";
 
 export default function Speaker(): ReactNode {
   const { siteConfig } = useDocusaurusContext();

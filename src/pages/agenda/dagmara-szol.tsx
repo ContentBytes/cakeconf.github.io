@@ -13,7 +13,7 @@ const Name = BioAndAbstract[12]["speaker"];
 const Bio = BioAndAbstract[12]["bio"];
 const Abstract = BioAndAbstract[12]["abstract"];
 
-const Picture = "img/favicon.svg";
+const Picture = "img/speakers/dagmara-szol.png";
 
 export default function Speaker(): ReactNode {
   const { siteConfig } = useDocusaurusContext();

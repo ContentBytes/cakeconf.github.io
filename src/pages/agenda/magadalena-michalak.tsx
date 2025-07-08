@@ -13,7 +13,7 @@ const Name = BioAndAbstract[10]["speaker"];
 const Bio = BioAndAbstract[10]["bio"];
 const Abstract = BioAndAbstract[10]["abstract"];
 
-const Picture = "img/favicon.svg";
+const Picture = "img/speakers/magdalena-michalak.png";
 
 export default function Speaker(): ReactNode {
   const { siteConfig } = useDocusaurusContext();

@@ -13,7 +13,7 @@ const Name = BioAndAbstract[5]["speaker"];
 const Bio = BioAndAbstract[5]["bio"];
 const Abstract = BioAndAbstract[5]["abstract"];
 
-const Picture = "img/favicon.svg";
+const Picture = "img/speakers/katarzyna-koltun.png";
 
 export default function Speaker(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
