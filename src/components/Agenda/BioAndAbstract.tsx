@@ -30,7 +30,7 @@ export const BioAndAbstract: TopicInfoProps[] = [
     speaker: "Wojtek Kutyła",
     bio: (
     <>
-      Wojtek Kutyła is a consultant specializing in digital accessibility and UX. Under the Human Thing Ltd brand, he leads workshops and supports the development of inclusive digital products. Based in Edinburgh, he collaborates with a wide range of international organizations. He is the author of "Web accessibility. Wprowadzenie do dostępności cyfrowej" and <Link to="https://wojtekkutyla.blog">wojtekkutyla.blog</Link>, where he writes about accessibility in software development.
+      Wojtek Kutyła is a consultant specializing in digital accessibility and UX. Under the Human Thing Ltd brand, he leads workshops and supports the development of inclusive digital products. Based in Edinburgh, he collaborates with a wide range of international organizations. He is the author of "Web accessibility. Wprowadzenie do dostępności cyfrowej" and <Link to="https://wojtekkutyla.pl">wojtekkutyla.blog</Link>, where he writes about accessibility in software development.
     </>),
     abstract: "Contrary to popular belief, web accessibility is not something reserved for web developers or UX folks. It's paramount to write good, accessible content, from tiny messages to large, elaborate pieces of copy. To have a fulfilling and pleasant dialogue with our users, regardless of who or where they are. What does this even mean? How can we do it? And what are some of the things related to this subject that you might not have thought about before? Let's focus on creating accessible, fulfilling experiences in the context of how we write for the web. ",
     url: "agenda/wojtek-kutyla",
