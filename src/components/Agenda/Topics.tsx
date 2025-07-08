@@ -120,7 +120,7 @@ export const AgendaItems: CardProps[] = [
   },
   {
     category: "Storytelling",
-    title: "How to communicate your brand",
+    title: "How to tell the stories about your creative brand? 5 rules of brand communication in 2025",
     speaker: "Dagmara Szol",
     time: `16:35${'\u2013'}17:05`,
     url: "agenda/dagmara-szol"
