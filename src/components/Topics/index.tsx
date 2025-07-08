@@ -1,5 +1,8 @@
 import clsx from "clsx";
 import styles from "./styles.module.css";
+import { ButtonBlack } from '../Button';
+
+const AgendaLink = "/agenda";
 
 type TopicItem = {
   icon: string;
@@ -68,6 +71,7 @@ export default function Topics() {
         <div>
           <CreateTopicCards />
         </div>
+        <div className={styles.buttons}><ButtonBlack link={AgendaLink} label="👀 See the agenda" /></div>
       </div>
     </div>
   );
