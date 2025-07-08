@@ -13,7 +13,7 @@ const Name = BioAndAbstract[19]["speaker"];
 const Bio = BioAndAbstract[19]["bio"];
 const Abstract = BioAndAbstract[19]["abstract"];
 
-const Picture = "img/favicon.svg";
+const Picture = "img/speakers/sara-gradziel.png";
 
 export default function Speaker(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
