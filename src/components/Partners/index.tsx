@@ -1,6 +1,6 @@
-import Link from "@docusaurus/Link";
-import styles from "./styles.module.css";
-import useBaseUrl from "@docusaurus/useBaseUrl";
+import Link from '@docusaurus/Link';
+import styles from './styles.module.css';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import { PartnerItem } from './Partners';
 
@@ -10,17 +10,13 @@ export type PartnerProps = {
   alt: string;
 };
 
-function CreateParner({ link, img, alt }: PartnerProps ) {
+function CreateParner({ link, img, alt }: PartnerProps) {
   return (
     <Link to={link} title={alt}>
-      <img
-        src={useBaseUrl(img)}
-        alt={alt}
-        className={styles.image}
-        />
+      <img src={useBaseUrl(img)} alt={alt} className={styles.image} />
     </Link>
-  )
-} 
+  );
+}
 
 export default function Partners() {
   return (
@@ -29,7 +25,7 @@ export default function Partners() {
       <div className={styles.centerImgs}>
         <Link to="https://techwriter.pl" title="Go to techwriter.pl">
           <img
-            src={useBaseUrl("img/partners/techwriter-pl.png")}
+            src={useBaseUrl('img/partners/techwriter-pl.png')}
             alt="Go to techwriter.pl"
             className={styles.image}
           />
@@ -40,7 +36,7 @@ export default function Partners() {
           title="Go to techwriterkoduje.pl"
         >
           <img
-            src={useBaseUrl("img/partners/techwriter-koduje.png")}
+            src={useBaseUrl('img/partners/techwriter-koduje.png')}
             alt="Go to techwriterkoduje.pl"
             className={styles.image}
           />
@@ -48,7 +44,7 @@ export default function Partners() {
         <div className={styles.divider} />
         <Link to="https://www.waysconf.com" title="Go to waysconf.com">
           <img
-            src={useBaseUrl("img/partners/ways.png")}
+            src={useBaseUrl('img/partners/ways.png')}
             alt="Go to waysconf.com/"
             className={styles.image}
           />
@@ -56,7 +52,7 @@ export default function Partners() {
         <div className={styles.divider} />
         <Link to="https://saiit.odoo.com" title="Go to SAiIT website">
           <img
-            src={useBaseUrl("img/partners/saiit.png")}
+            src={useBaseUrl('img/partners/saiit.png')}
             alt="Go to SAiIT website"
             className={styles.image}
           />
