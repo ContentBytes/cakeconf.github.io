@@ -36,7 +36,7 @@ export const AgendaItems: CardProps[] = [
     url: "agenda/pieterjan-benoit",
     },
   {
-    category: "Digital accessibility",
+    category: "Accessibility",
     title: "Accessible web content: things you might not have thought about",
     speaker: "Wojtek Kutyła",
     time: `14:35${'\u2013'}15:15`,
@@ -71,7 +71,7 @@ export const AgendaItems: CardProps[] = [
     time: `9:30${'\u2013'}11:30`,
   },
   {
-    category: "Digital accessibility",
+    category: "Accessibility",
     title: "Workshop",
     speaker: "Details soon!",
     time: `9:30${'\u2013'}11:30`,
@@ -91,7 +91,7 @@ export const AgendaItems: CardProps[] = [
     url: "agenda/sergio-valero-notari"
   },
   {
-    category: "Digital accessibility",
+    category: "Accessibility",
     title: "How can content design support accessibility?",
     speaker: "Anna Dulny-Leszczyńska",
     time: `14:15${'\u2013'}14:35`,
