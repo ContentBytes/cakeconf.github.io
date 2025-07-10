@@ -1,16 +1,11 @@
 import clsx from "clsx";
 import styles from "./styles.module.css";
 import { ButtonBlack } from '../Button';
+import { Bubble, BubbleItem } from '../Topics/Bubble';
 
 const AgendaLink = "/agenda";
 
-type TopicItem = {
-  icon: string;
-  title: string;
-  desc: string;
-};
-
-const TopicList: TopicItem[] = [
+const TopicList: BubbleItem[] = [
   {
     icon: "🎯",
     title: "Storytelling",
@@ -43,21 +38,11 @@ const TopicList: TopicItem[] = [
   },
 ];
 
-function Topic({ icon, title, desc }: TopicItem) {
-  return (
-    <div className={styles.card}>
-      <div className={styles.icon}>{icon}</div>
-      <div className={styles.cardTitle}>{title}</div>
-      <div className={styles.description}>{desc}</div>
-    </div>
-  );
-}
-
 function CreateTopicCards() {
   return (
     <div className={styles.cardsAll}>
       {TopicList.map((props, idx) => (
-        <Topic key={idx} {...props} />
+        <Bubble key={idx} {...props} />
       ))}
     </div>
   );

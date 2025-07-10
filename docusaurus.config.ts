@@ -83,6 +83,7 @@ const config: Config = {
       },
       items: [
         { to: '/', label: "Home", position: 'right' },
+        { to: 'about', label: 'About', position: 'right' },
         { to: 'agenda', label: 'Agenda', position: 'right' },
         { to: 'speakers', label: "Speakers", position: 'right' },
         { to: 'media_kit', label: "Partners", position: 'right' },
