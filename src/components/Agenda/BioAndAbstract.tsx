@@ -17,7 +17,12 @@ export const BioAndAbstract: TopicInfoProps[] = [
   {
     speaker: "Tomek Prus",
     bio: "Tomek has been in TechComm for over 15 years, actively building the Polish content community and holding various roles across the software industry. Tomek is passionate about fostering a culture of collaboration, autonomy, and inclusivity — both within teams and across organizations.",
-    abstract: "Coming soon",
+    abstract: (
+      <>
+        <p>Great content doesn’t happen in isolation. In this talk, we’ll explore how to design user-centered content through close collaboration between content and design professionals — and with users themselves.</p>
+        <p>You’ll learn practical methods for co-creating content in cross-functional teams, aligning tone and structure with user needs, and treating content as an integral part of the user experience — not an afterthought. We’ll cover tools like content crits, co-writing sessions, and selected content testing methods that bring real user feedback into the process.</p>
+        <p>If you want to make content work with your team and for your users, this talk is for you.</p>
+      </>),
     url: "agenda/tomek-prus",
   },
   {
