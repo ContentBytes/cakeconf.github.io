@@ -6,8 +6,8 @@ import CreateSpeakerPage from '@site/src/components/Speakers/SpeakerPage';
 import { AgendaItems } from '@site/src/components/Agenda/Topics';
 import { BioAndAbstract } from '@site/src/components/Agenda/SpeakerDetails';
 
-const Title = AgendaItems[23]['title'];
-const Parowka = AgendaItems[23]['category'];
+const Title = BioAndAbstract[18]['title'];
+const Parowka = BioAndAbstract[18]['category'];
 const Name = BioAndAbstract[18]['speaker'];
 const Bio = BioAndAbstract[18]['bio'];
 const Abstract = BioAndAbstract[18]['abstract'];
