@@ -2,7 +2,8 @@ import Layout from "@theme/Layout";
 import type { ReactNode } from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
-import { Content } from "../components/MediaKit";
+import { Content, MediaKitCards } from "../components/MediaKit";
+import Partners from '../components/Partners';
 
 
 export default function MediaKit(): ReactNode {
@@ -11,6 +12,8 @@ export default function MediaKit(): ReactNode {
     <Layout title={`Partners`}>
       <main>
         <Content />
+        <Partners />
+        <MediaKitCards />
       </main>
     </Layout>
   );
