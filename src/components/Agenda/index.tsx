@@ -7,8 +7,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Link from '@docusaurus/Link';
 
 
-const DayOneTalks = AgendaItems.slice(2, 9)
-const DayTwoTalks = AgendaItems.slice(11, 18)
+const DayOneTalks = AgendaItems.slice(2, 13)
+const DayTwoTalks = AgendaItems.slice(15, 25)
 
 /* Label-parówka for the talk type */
 export function Category({ label }) {
@@ -18,9 +18,9 @@ export function Category({ label }) {
 }
 
 export type CardProps = {
-  category: string;
+  category?: string;
   title: string;
-  speaker: string;
+  speaker?: string;
   time: string;
   bio?: string;
   abstract?: string;
@@ -30,7 +30,7 @@ export type CardProps = {
 function Card({ category, title, speaker, time, url }: CardProps) {
   return (
     <Link className={clsx("sp-card-outline", styles.card, styles.link)} to={useBaseUrl(url)}>
-      <Category label={category} />
+      { category && (<Category label={category} />)}
       <div className={styles.topicTitle}>{title}</div>
       <div className={styles.topicSpeaker}>{speaker}</div>
       <div>{time}</div>
@@ -46,12 +46,12 @@ function CreateCards({ type }) {
   )
 }
 
-function PlaceholderCard() {
+function PlaceholderCard({ desc, time }) {
   return (
     <div className={clsx("sp-card-outline", styles.card)}>
       <div className={styles.placeholder}>
-        <div className={styles.topicTitle}>Details coming soon!</div>
-        <div>9:30{'\u2013'}11:30</div>
+        <div className={styles.topicTitle}>{desc}</div>
+        <div>{time}</div>
       </div>
     </div>
   )
@@ -61,7 +61,7 @@ function CreateWorkshops() {
   return (
     <div className={styles.leftColumn}>
       <div className={styles.section}>WORKSHOPS</div>
-      <PlaceholderCard />
+      <PlaceholderCard desc={"Details coming soon!"} time={`9:30${'\u2013'}11:30`} />
     </div>
   )
 }

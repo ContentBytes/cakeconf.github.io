@@ -200,5 +200,6 @@ export const BioAndAbstract: TopicInfoProps[] = [
       <p>Together, we’ll uncover how automation makes inclusion scalable, affordable, and precise - so teams of any size, from nimble startups to global enterprises, can truly embed accessibility into their DNA.</p>
       </>
     ),
+    url: "agenda/sara-gradziel",
   }
 ];
