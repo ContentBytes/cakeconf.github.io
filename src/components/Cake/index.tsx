@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 const CakeElements: BubbleItem[] = [
   {
     title: "Speakers",
-    desc: "Skilled speakers are key to delivering topics that are not only deeply informative but also genuinely entertaining",
+    desc: "Skilled speakers are key to delivering topics that are not only deeply informative but also genuinely entertaining.",
   },
   {
     title: "Diverse audience",
@@ -16,7 +16,7 @@ const CakeElements: BubbleItem[] = [
   },
   {
     title: "Talks",
-    desc: "Talk topics range from accessibility, AI, content creation and testing to content and team management",
+    desc: "Talk topics range from accessibility, AI, content creation and testing to content and team management.",
   },
   {
     title: "Networking",
