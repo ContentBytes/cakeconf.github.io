@@ -70,18 +70,18 @@ export const AgendaItems: CardProps[] = [
     url: BioAndAbstract[4]["url"],
   },
   {
-    category: BioAndAbstract[5]["category"],
-    title: BioAndAbstract[5]["title"],
-    speaker: "Katarzyna Kołtun",
-    time: `16:35${'\u2013'}16:55`,
-    url: BioAndAbstract[5]["url"],
-  },
-  {
     category: BioAndAbstract[6]["category"],
     title: BioAndAbstract[6]["title"],
     speaker: "Aleksandra Wieczorek-Konieczko",
-    time: `16:55${'\u2013'}17:25`,
+    time: `16:35${'\u2013'}17:05`,
     url: BioAndAbstract[6]["url"],
+  },
+  {
+    category: BioAndAbstract[5]["category"],
+    title: BioAndAbstract[5]["title"],
+    speaker: "Katarzyna Kołtun",
+    time: `17:05${'\u2013'}17:25`,
+    url: BioAndAbstract[5]["url"],
   },
   /* Day 2 */
   {
