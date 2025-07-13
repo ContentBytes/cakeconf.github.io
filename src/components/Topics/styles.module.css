@@ -21,32 +21,6 @@
   padding-bottom: 100px;
 }
 
-.card {
-  background-color: white;
-  border-radius: 1px 15px 15px 15px;
-  padding: 30px 25px;
-  max-width: 290px;
-  text-align: left;
-  color: black;
-  font-weight: 300;
-}
-
-.icon {
-  font-size: 3rem;
-}
-
-.cardTitle {
-  font-size: 20px;
-  font-weight: 600;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  font-family: "Roboto Slab", serif;
-}
-
-.description {
-  font-size: 16px;
-}
-
 .buttons {
   display: flex;
   justify-content: center;

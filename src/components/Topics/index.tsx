@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import styles from "./styles.module.css";
 import { ButtonBlack } from '../Button';
-import { Bubble, BubbleItem } from '../Topics/Bubble';
+import { Bubble, BubbleItem } from '../Util/Bubble';
 
 const AgendaLink = "/agenda";
 

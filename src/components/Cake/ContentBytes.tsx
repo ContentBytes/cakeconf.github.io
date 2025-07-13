@@ -1,5 +1,5 @@
 import Link from '@docusaurus/Link';
-import { Bubble, BubbleItem } from '../Topics/Bubble';
+import { Bubble, BubbleItem } from '../Util/Bubble';
 import styles from './styles.module.css';
 
 const ContentBytesLink = 'https://contentbytes.pl';

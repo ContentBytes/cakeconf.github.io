@@ -1,4 +1,4 @@
-import { Bubble, BubbleItem } from '../Topics/Bubble';
+import { Bubble, BubbleItem } from '../Util/Bubble';
 import styles from "./styles.module.css";
 
 const CakeElements: BubbleItem[] = [
