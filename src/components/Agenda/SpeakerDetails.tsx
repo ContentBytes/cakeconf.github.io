@@ -207,7 +207,7 @@ export const BioAndAbstract: TopicInfoProps[] = [
     category: "Documentation",
     title: "Workshop",
     bio: "Andrzej Niewiarowski is the Chief Software Technical Writer at Hitachi Energy. He has a considerable experience in technical writing and a keen interest in visual communication.",
-    abstract: "TBD",
+    abstract: "Details coming soon",
     url: "/agenda/andrzej-niewiarowski",
   },
   {
