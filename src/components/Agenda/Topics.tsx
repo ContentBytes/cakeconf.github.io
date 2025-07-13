@@ -38,12 +38,12 @@ export const AgendaItems: CardProps[] = [
     time: `13:15${'\u2013'}14:15`,
   },
   {
-    category: "UX writing",
-    title: "Content design for onboarding - Only one chance to make a first impression",
-    speaker: "Pieterjan Benoit",
+    category: "AI",
+    title: "The readers you never see",
+    speaker: "Magdalena Michalak",
     time: `14:15${'\u2013'}14:35`,
-    url: BioAndAbstract[2]["url"],
-    },
+    url: BioAndAbstract[10]["url"],
+  },
   {
     category: "Accessibility",
     title: "Accessible web content: things you might not have thought about",
@@ -52,11 +52,11 @@ export const AgendaItems: CardProps[] = [
     url: BioAndAbstract[3]["url"],
   },
   {
-    category: "AI",
-    title: "The readers you never see",
-    speaker: "Magdalena Michalak",
+    category: "UX writing",
+    title: "Content design for onboarding - Only one chance to make a first impression",
+    speaker: "Pieterjan Benoit",
     time: `15:15${'\u2013'}15:35`,
-    url: BioAndAbstract[10]["url"],
+    url: BioAndAbstract[2]["url"],
   },
   {
     title: "Coffee break",
