@@ -1,3 +1,4 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 const Title = 'Our audience';
@@ -19,6 +20,11 @@ export function Audience() {
       <div className="container">
         <div className="sp-title">{Title}</div>
         <div className={styles.description}>{Description}</div>
+        <img
+            src={useBaseUrl('img/audience/chart.png')}
+            alt="Bar chart showing the professions that attend Content Bytes events."
+            className={styles.chart}
+        />
         <div className={styles.footer}>{Footer}</div>
       </div>
     </div>
