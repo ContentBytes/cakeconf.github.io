@@ -19,7 +19,7 @@ const KitList: KitItem[] = [
     title: 'Press release',
     desc: 'One-pager explaining who we are and what we do',
     label: '📣 Get press release',
-    link: 'https://drive.google.com/file/d/1Pof7gyUOOfM5CIZ815AVyadIxfKDuJgq/view?usp=sharing',
+    link: 'https://drive.google.com/file/d/13ZKo2zYMfUehK4kPrPbVjHzaoOt8lb-A/view?usp=sharing',
   },
   {
     title: 'Logo',

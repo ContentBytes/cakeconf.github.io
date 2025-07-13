@@ -4,11 +4,10 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import CreateSpeakerPage from '@site/src/components/Speakers/SpeakerPage';
 
 import { AgendaItems } from '@site/src/components/Agenda/Topics';
-import { BioAndAbstract } from '@site/src/components/Agenda/BioAndAbstract';
+import { BioAndAbstract } from '@site/src/components/Agenda/SpeakerDetails';
 
-const Title = AgendaItems[8]["title"];
-const Parowka = AgendaItems[8]["category"];
-
+const Title = BioAndAbstract[6]["title"];
+const Parowka = BioAndAbstract[6]["category"];
 const Name = BioAndAbstract[6]["speaker"];
 const Bio = BioAndAbstract[6]["bio"];
 const Abstract = BioAndAbstract[6]["abstract"];

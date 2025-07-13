@@ -32,7 +32,7 @@
 .link:hover {
   text-decoration: none;
   --ifm-link-hover-color: white;
-  transform: scale(1.02);
+  background-color: #013153;
 }
 
 .topicTitle {

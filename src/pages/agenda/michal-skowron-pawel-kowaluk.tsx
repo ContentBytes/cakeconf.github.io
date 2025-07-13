@@ -4,11 +4,10 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import { Category } from '@site/src/components/Agenda';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-import { AgendaItems } from '@site/src/components/Agenda/Topics';
-import { BioAndAbstract } from '@site/src/components/Agenda/BioAndAbstract';
+import { BioAndAbstract } from '@site/src/components/Agenda/SpeakerDetails';
 
-const Title = AgendaItems[0]["title"];
-const Parowka = AgendaItems[0]["category"];
+const Title = BioAndAbstract[14]["title"];
+const Parowka = BioAndAbstract[14]["category"];
 
 const Name = "Michał Skowron and Paweł Kowaluk";
 

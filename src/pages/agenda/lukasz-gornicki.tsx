@@ -3,11 +3,10 @@ import type { ReactNode } from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import CreateSpeakerPage from '@site/src/components/Speakers/SpeakerPage';
 
-import { AgendaItems } from '@site/src/components/Agenda/Topics';
-import { BioAndAbstract } from '@site/src/components/Agenda/BioAndAbstract';
+import { BioAndAbstract } from '@site/src/components/Agenda/SpeakerDetails';
 
-const Title = AgendaItems[6]["title"];
-const Parowka = AgendaItems[6]["category"];
+const Title = BioAndAbstract[4]["title"];
+const Parowka = BioAndAbstract[4]["category"];
 
 const Name = BioAndAbstract[4]["speaker"];
 const Bio = BioAndAbstract[4]["bio"];

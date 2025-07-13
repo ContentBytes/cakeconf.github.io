@@ -7,11 +7,11 @@ const ContentBytesLink = 'https://contentbytes.pl';
 const ContentBytesBubbles: BubbleItem[] = [
   {
     title: 'Community',
-    desc: 'Content Bytes allows diverse content enthusiasts connect and exchange insights, fostering a truly thriving environment',
+    desc: 'Content Bytes allows diverse content enthusiasts connect and exchange insights, fostering a truly thriving environment.',
   },
   {
     title: 'Meetups',
-    desc: 'Monthly meetups offer a regular dose of captivating content, turning regular meetings into a creative hub for all participants',
+    desc: 'Monthly meetups offer a regular dose of captivating content, turning regular meetings into a creative hub for all participants.',
   },
   {
     title: 'Conferences',
