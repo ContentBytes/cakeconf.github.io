@@ -11,7 +11,7 @@ const Parowka = BioAndAbstract[18]['category'];
 const Name = BioAndAbstract[18]['speaker'];
 const Bio = BioAndAbstract[18]['bio'];
 const Abstract = BioAndAbstract[18]['abstract'];
-const Picture = 'img/favicon.svg';
+const Picture = 'img/speakers/adam-turlej.png';
 
 export default function Speaker(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
