@@ -9,6 +9,7 @@ const PersonalTicketLink = 'https://www.naffy.io/cake-conf/cake-conf-late-bird-t
 
 const CorporateTicketLink = '/corporateticket';
 const TicketPrice = "PLN 450";
+const TicketPriceCorporate = "PLN 450 + VAT";
 const TicketType = "🐔 Late bird 🐔";
 
 export function Badge() {
@@ -59,7 +60,7 @@ export function CorporateTicket() {
         <div className={clsx(styles.spaceBottom20, styles.ticketDesc)}>
           Ideal if your employer pays for the tickets
         </div>
-        <div className={styles.price}>{TicketPrice}</div>
+        <div className={styles.price}>{TicketPriceCorporate}</div>
         <div className={styles.spaceBottom20}>{TicketType}</div>
       </div>
       <div className={styles.explainer}>
