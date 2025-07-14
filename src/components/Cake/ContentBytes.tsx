@@ -33,7 +33,7 @@ export default function ContentBytes() {
   return (
     <div className="sp-background">
       <div className="container">
-        <div className="sp-title">Content Bytes</div>
+        <div className="sp-title">By Content Bytes</div>
         <div className={styles.description}>
           <p>Our mission is to explore, share, and learn about content.</p>
           <p>
