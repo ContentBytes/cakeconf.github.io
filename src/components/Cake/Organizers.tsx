@@ -44,7 +44,7 @@ function Card({ name, role, picture, linkedin }) {
         <div className={styles.orgRole}>{role}</div>
         <Link to={linkedin}>
           <img
-            src="img/icons/linkedin.svg"
+            src={useBaseUrl("img/icons/linkedin.svg")}
             alt="Go to LinkedIn profile"
             height="30"
           />
