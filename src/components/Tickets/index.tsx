@@ -8,8 +8,8 @@ import cakeStyles from "@site/src/pages/index.module.css";
 const PersonalTicketLink = 'https://www.naffy.io/cake-conf/cake-conf-late-bird-ticket';
 
 const CorporateTicketLink = '/corporateticket';
-const TicketPrice = "PLN 450";
-const TicketPriceCorporate = "PLN 450 + VAT";
+const TicketPrice = "SOLD OUT";
+const TicketPriceCorporate = "SOLD OUT";
 const TicketType = "🐔 Late bird 🐔";
 
 export function Badge() {
@@ -45,8 +45,7 @@ export function PersonalTicket() {
         <p>Ticket delivered straight to your inbox</p>
         <p>VAT-exempt</p>
       </div>
-    <div className={clsx(styles.center, styles.spaceBottom20)}>
-      {<Button link={PersonalTicketLink} label="personal" />}
+    <div className={clsx(styles.center)}>
       </div>
     </div>
   );
@@ -68,8 +67,7 @@ export function CorporateTicket() {
         <p>Paid by bank transfer</p>
         <p>VAT 23%</p>
       </div>
-      <div className={clsx(styles.center, styles.spaceBottom20)}>
-{ <Button link={CorporateTicketLink} label="corporate" />}
+      <div className={clsx(styles.center)}>
       </div>
     </div>
   );

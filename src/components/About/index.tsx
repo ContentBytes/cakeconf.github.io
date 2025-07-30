@@ -6,6 +6,7 @@ import { ButtonWhite, ButtonBlack } from "../Button";
 
 const BecomeSpeakerLink = 'call4speakers';
 const Tickets = 'tickets';
+const Agenda = '/agenda';
 
 export default function About() {
   return (
@@ -36,7 +37,7 @@ export default function About() {
             <p>documentation, UX writing, accessibility, AI, storytelling, management</p>
           </div>
           <div className={clsx(styles.centerButtons, styles.spaceBottom)}>
-            <ButtonBlack link={Tickets} label="💥 Get tickets" />
+            <ButtonBlack link={Agenda} label="👀 See the agenda" />
           </div>
         </div>
       </div>

@@ -50,6 +50,8 @@
 .price {
   font-size: 2rem;
   font-weight: bold;
+  color: #EB1E49;
+  font-family: var(--font-title);
 }
 
 .name {
