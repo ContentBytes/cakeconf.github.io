@@ -5,7 +5,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import About from '../components/About';
 import { Speakers } from '../components/Speakers';
 import Topics from '../components/Topics';
-import Companies from '../components/Comapnies';
 import Networking from '../components/Networking';
 import Partners from '../components/Partners';
 import Newsletter from '../components/Newsletter';
@@ -19,10 +18,9 @@ export default function Home(): ReactNode {
       <main>
         <About />
         <Speakers />
-        <Companies />
+        <Partners />
         <Topics />
         <Networking />
-        <Partners />
         <Newsletter />
       </main>
     </Layout>
