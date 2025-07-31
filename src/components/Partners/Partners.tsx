@@ -1,6 +1,6 @@
 import { PartnerProps } from "./";
 
-export const PartnerItem: PartnerProps[] = [
+export const PartnerList: PartnerProps[] = [
   {
     link: "https://techwriter.pl",
     img: "img/partners/techwriter-pl.png",
