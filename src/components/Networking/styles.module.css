@@ -1,13 +1,13 @@
 .background {
-  background-color: #101010;
-  color: white;
+  background-color: #F1F1F1;
+  color: black;
   text-align: center;
   padding-bottom: 100px;
 }
 
 .title {
   font-family: "Caprasimo", serif;
-  font-size: 3.5rem;
+  font-size: 3rem;
   padding-top: 100px;
   padding-bottom: 50px;
 }
@@ -15,7 +15,6 @@
 .description {
   font-size: 1.5rem;
   line-height: 1.5;
-  padding-bottom: 100px;
 }
 
 .images {
@@ -23,11 +22,12 @@
   flex-wrap: wrap;
   gap: 40px;
   justify-content: center;
+  padding-top: 100px;
 }
 
 .image {
-  width: 220px;
-  padding-bottom: 50px;
+  width: 500px;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 996px) {
