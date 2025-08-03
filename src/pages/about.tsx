@@ -7,6 +7,7 @@ import { Audience } from '../components/Cake/Audience';
 import ContentBytes from '../components/Cake/ContentBytes';
 import { Organizers } from '../components/Cake/Organizers';
 import CakePictures from '../components/Cake/Pictures';
+import { Map } from '../components/Cake/Map';
 
 export default function AboutCake(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
@@ -20,6 +21,7 @@ export default function AboutCake(): ReactNode {
         <ContentBytes />
         <Organizers />
         <CakePictures />
+        <Map />
       </main>
     </Layout>
   );
