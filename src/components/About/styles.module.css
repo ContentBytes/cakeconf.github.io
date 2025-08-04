@@ -44,6 +44,10 @@
   line-height: 1.5;
 }
 
+.link:hover{
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 996px) {
   .title {
       font-size: 2.5rem;
