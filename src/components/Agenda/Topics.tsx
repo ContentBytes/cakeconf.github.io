@@ -5,15 +5,17 @@ export const AgendaItems: CardProps[] = [
   /* Day 1 */
   {
     category: "Documentation",
-    title: "Workshop",
-    speaker: "Details coming soon",
+    title: BioAndAbstract[14]["title"],
+    speaker: "Michał Skowron and Paweł Kowaluk",
     time: `9:30${'\u2013'}11:30`,
+    url: BioAndAbstract[14]["url"],
   },
   {
     category: "Accessibility",
-    title: "Workshop",
-    speaker: "Details coming soon",
+    title: BioAndAbstract[17]["title"],
+    speaker: "Marcin Krzanicki",
     time: `9:30${'\u2013'}11:30`,
+    url: BioAndAbstract[17]["url"],
   },
   {
     title: "Opening remarks",
@@ -86,15 +88,17 @@ export const AgendaItems: CardProps[] = [
   /* Day 2 */
   {
     category: "Documentation",
-    title: "Workshop 1",
-    speaker: "Details soon!",
+    title: BioAndAbstract[16]["title"],
+    speaker: "Andrzej Niewiarowski",
     time: `9:30${'\u2013'}11:30`,
+    url: BioAndAbstract[16]["url"],
   },
   {
     category: "Accessibility",
-    title: "Workshop",
-    speaker: "Details soon!",
+    title: BioAndAbstract[13]["title"],
+    speaker: "Dariusz Drezno",
     time: `9:30${'\u2013'}11:30`,
+    url: BioAndAbstract[13]["url"],
   },
   {
     category: BioAndAbstract[7]["category"],

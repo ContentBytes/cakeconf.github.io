@@ -17,7 +17,7 @@ const BioMS = BioAndAbstract[14]["bio"];
 const NamePK = BioAndAbstract[15]["speaker"];
 const BioPK = BioAndAbstract[15]["bio"];
 
-const Abstract = BioAndAbstract[13]["abstract"];
+const Abstract = BioAndAbstract[14]["abstract"];
 
 const PictureMS = "img/speakers/michal-skowron.png";
 const PicturePK = "img/speakers/pawel-kowaluk.png";
