@@ -56,7 +56,7 @@ export default function Topics() {
         <div>
           <CreateTopicCards />
         </div>
-        <div className={styles.buttons}><ButtonBlack link={AgendaLink} label="👀 See the agenda" /></div>
+        <div className={styles.buttons}><ButtonBlack link={AgendaLink} label="🗓️ Check agenda" /></div>
       </div>
     </div>
   );
