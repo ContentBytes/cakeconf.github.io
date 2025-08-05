@@ -19,7 +19,7 @@ export default function Speaker(): ReactNode {
     <Layout title={Name}>
       <main>
         <CreateSpeakerPage
-          title={Title} 
+          title="Dostepnosc dokumentacji - nieoczywiste pulapki 🇵🇱" 
           parowka={Parowka} 
           abstract={Abstract} 
           picture={Picture} 
