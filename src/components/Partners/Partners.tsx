@@ -12,6 +12,11 @@ export const PartnerList: PartnerProps[] = [
     alt: "Go to techwriterkoduje.pl",
   }, 
   {
+    link: "https://en.uj.edu.pl/",
+    img: "img/partners/uj.png",
+    alt: "Go to Jagiellonian University website",
+  },
+  {
     link: "https://www.waysconf.com",
     img: "img/partners/ways.png",
     alt: "Go to waysconf.com",

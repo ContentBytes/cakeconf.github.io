@@ -4,6 +4,7 @@
 
 .centerImgs {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 50px;
   gap: 50px;
@@ -25,13 +26,4 @@
   font-size: 3rem;
   font-family: "Caprasimo", serif;
   padding: 100px 0;
-}
-
-@media only screen and (max-width: 996px) {
-  .centerImgs {
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-    align-items: center;
-  }
 }
