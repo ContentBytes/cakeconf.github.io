@@ -7,6 +7,7 @@ type TopicInfoProps = {
   bio: React.ReactNode;
   abstract: React.ReactNode;
   url?: string;
+  linkedIn?: string;
 };
 
 export const BioAndAbstract: TopicInfoProps[] = [
@@ -18,6 +19,7 @@ export const BioAndAbstract: TopicInfoProps[] = [
     abstract:
       "In content design, words don't just inform — they shape decisions. This talk explores three core linguistic strategies that guide user behavior: the language of features, the language of benefits, and the language of loss. You’ll learn how each “narrative” influences perception, motivation, and trust. Is any of the three strategies superior? Where is the border between persuasion and manipulation? Can one feature tell three different stories — and should it? Packed with real-world examples, insights from psychology, and ethical design, this session will attempt to answer those questions for anyone who shapes digital conversations. ",
     url: '/agenda/wojtek-aleksander',
+    linkedIn: 'https://www.linkedin.com/in/waleksander',
   },
   {
     speaker: 'Tomek Prus',
@@ -46,6 +48,7 @@ export const BioAndAbstract: TopicInfoProps[] = [
       </>
     ),
     url: '/agenda/tomek-prus',
+    linkedIn: 'https://www.linkedin.com/in/tomasz-prus-4b09b01a',
   },
   {
     speaker: 'Pieterjan Benoit',
@@ -56,6 +59,7 @@ export const BioAndAbstract: TopicInfoProps[] = [
     abstract:
       'Our lives have become increasingly digital and for nearly every problem you now have a wide range of different digital solutions. For a product to stand out and create a bond with the user, you have to show the value of your product and show it fast. To get off on the right foot and nail that first impression, onboarding is a crucial and decisive step that can make or break it. In this talk, I’ll connect a few dots and share some thoughts about the importance of content design and UX writing in the development of an onboarding experience that will be the start of a long and healthy relationship with your users.',
     url: '/agenda/pieterjan-benoit',
+    linkedIn: 'https://www.linkedin.com/in/pieterjan-benoit-03a59328',
   },
   {
     speaker: 'Wojtek Kutyła',
@@ -75,6 +79,7 @@ export const BioAndAbstract: TopicInfoProps[] = [
     abstract:
       "Contrary to popular belief, web accessibility is not something reserved for web developers or UX folks. It's paramount to write good, accessible content, from tiny messages to large, elaborate pieces of copy. To have a fulfilling and pleasant dialogue with our users, regardless of who or where they are. What does this even mean? How can we do it? And what are some of the things related to this subject that you might not have thought about before? Let's focus on creating accessible, fulfilling experiences in the context of how we write for the web. ",
     url: '/agenda/wojtek-kutyla',
+    linkedIn: 'https://www.linkedin.com/in/wojtekkutyla',
   },
   {
     speaker: 'Łukasz Górnicki',
@@ -84,6 +89,7 @@ export const BioAndAbstract: TopicInfoProps[] = [
     abstract:
       "I began my career as a technical writer in 2011, my first active interaction with open source was in 2014, and for the past five years, I’ve been working full time on open source. In this session, I will draw directly from my own experience to ask whether contributing to open source really makes sense for technical writers. I want to give you a clear, practical picture of what open source can and cannot do for a technical writing journey. I'll start by explaining what open source is, as many still misunderstand it.",
     url: '/agenda/lukasz-gornicki',
+    linkedIn: 'https://www.linkedin.com/in/lukasz-gornicki-a621914',
   },
   {
     speaker: 'Katarzyna Kołtun',
@@ -93,6 +99,7 @@ export const BioAndAbstract: TopicInfoProps[] = [
     abstract:
       "In many ways, DITA and docs-as-code are polar opposites - one a highly structured, semantic methodology, the other a more flexible, developer-driven approach. When faced with the question of choosing the right approach for their use case, technical writing teams sometimes struggle to meaningfully compare the two. In this presentation, I'll share my experiences from working with two similar yet different organizations: Company A, which uses DITA, and Company B, which uses docs-as-code. We'll look at the costs and benefits of each approach, and how their respective implementations can shape your documentation process.",
     url: '/agenda/katarzyna-koltun',
+    linkedIn: 'https://www.linkedin.com/in/katarzyna-ko%C5%82tun-7a314446',
   },
   {
     speaker: 'Aleksandra Wieczorek-Konieczko',
@@ -136,6 +143,7 @@ export const BioAndAbstract: TopicInfoProps[] = [
       </>
     ),
     url: '/agenda/aleksandra-wieczorek-konieczko',
+    linkedIn: 'https://www.linkedin.com/in/techwriter-wieczorek/',
   },
   {
     speaker: 'Lance Cummings',
@@ -596,5 +604,124 @@ export const BioAndAbstract: TopicInfoProps[] = [
       </>
     ),
     url: '/agenda/sara-gradziel',
+  },
+  {
+    speaker: 'Linda Parys',
+    category: 'Storytelling',
+    title: 'Pause, write, reflect – journaling for creative clarity',
+    bio: (
+      <>
+        <p>
+          Linda Parys is a creativity trainer, brand coach, certified LEGO®
+          Serious Play® and journaling facilitator and brand strategist. She
+          helps people and teams reconnect with what matters by activating
+          creativity as a daily practice. Her work blends mindful innovation,
+          conscious rest and value-driven branding. Grounded in flow,
+          neuroplasticity and purpose, she supports navigating change with
+          clarity and building meaningful brands rooted in inner "why".
+        </p>
+        <p>
+          She believes that everyone is creative and, with the right
+          environment, tools and questions, we can all access deeper clarity,
+          ideas and joy. That’s why she founded the Creative Mindset Institute,
+          a space dedicated to designing experiences that focus on conscious
+          creativity, sustainable growth, future thinking and co-creation.
+        </p>
+        <p>
+          She brings this into practice through individual consulting, talk and
+          meet immersive workshops and learning journeys based on tools like
+          LEGO® Serious Play®, MindSonar®, vision boards, journaling,
+          photographic techniques for self-development and the Hero’s Journey®.
+        </p>
+        <p>
+          She is an ICC certified coach, well-being trainer, a resilience
+          diagnostics practitioner (TOP360) and a graduate of Photography in
+          Therapy and Development (GWSH) and Brainology - Well-being Leadership
+          (WSAiB). She studied creativity in New York and graduated in
+          Innovation and Design Management at School of Form / SWPS.
+        </p>
+      </>
+    ),
+    abstract: (
+      <>
+        <p>
+          After a full day of talks, insights, and ideas, it's time to slow down
+          and tune in. Journaling - the simple act of writing for yourself and
+          your imagination, is one of the most powerful tools to boost
+          creativity, clarity, and calm. In this short session, you'll get a
+          glimpse into what journaling is, the different types of it and what
+          science says about how it supports imagination and lowers stress
+          levels in your body.{' '}
+        </p>
+        <p>
+          Then we’ll move into a 20-minute guided practice with creative
+          writing. You’ll receive a few journaling prompts - some designed to
+          spark new creative directions, others to help you reflect on what
+          stood out to you during the conference. You don’t need to be a great
+          writer or even like hand-writing. This immersive talk and meet
+          experience to close the day and open new ideas is all about getting
+          your thoughts on paper and letting them take shape.The entire session
+          will be accompanied by an ambient live act by Vojto Monteur, designed
+          to deepen the experience and help you unwind even further.{' '}
+        </p>
+      </>
+    ),
+    url: '/agenda/linda-parys-vojto-monteur',
+  },
+  {
+    speaker: 'Vojto Monteur',
+    category: 'Storytelling',
+    title: 'Pause, write, reflect – journaling for creative clarity',
+    bio: (
+      <>
+        <p>
+          Vojto Monteur developed a unique electronic guitar sound through
+          theater, drum'n'bass and jazz projects. His instruments are subjected
+          to modulations sounding spacey and ambient - his signature sound
+          recognizable by his polish and japanese fans. Studying possibilities
+          to transform familiar sounds into music is his artistic trademark.
+          Ambient landscapes, mysterious hums, and electro acoustic experiments
+          are characteristic elements of Vojto’s music.
+        </p>
+        <p>
+          Electronic music and acoustic instruments are the natural landscape
+          for guitarist and producer Vojto Monteur. For eight years he played in
+          the internationally recognized drum’n’bass collective Miloopa as MC
+          and composer. This time led to many interesting cooperations like with
+          Mc Blu rum, Jojo Mayer’s Nerve, Dj first rate and many more.
+        </p>
+        <p>
+          Nowadays Vojto Monteur is mainly recognized among jazz listeners for
+          his unique guitar sound in EABS and Piotr Rachoń Quartet. He is a
+          guest player i.e. in Leszek Możdzer's PADEREWSKI ORCHESTRA and
+          SYMPHOSPHERE project, playing next to Tia Fuller and Lars Danielsson.
+        </p>
+      </>
+    ),
+    abstract: (
+      <>
+        <p>
+          After a full day of talks, insights, and ideas, it's time to slow down
+          and tune in. Journaling - the simple act of writing for yourself and
+          your imagination, is one of the most powerful tools to boost
+          creativity, clarity, and calm. In this short session, you'll get a
+          glimpse into what journaling is, the different types of it and what
+          science says about how it supports imagination and lowers stress
+          levels in your body.{' '}
+        </p>
+        <p>
+          Then we’ll move into a 20-minute guided practice with creative
+          writing. You’ll receive a few journaling prompts - some designed to
+          spark new creative directions, others to help you reflect on what
+          stood out to you during the conference. You don’t need to be a great
+          writer or even like hand-writing. This immersive talk and meet
+          experience to close the day and open new ideas is all about getting
+          your thoughts on paper and letting them take shape.The entire session
+          will be accompanied by an ambient live acr by Vojto Monteur, designed
+          to deepen the experience and help you unwind even further.{' '}
+        </p>
+      </>
+    ),
+    url: '/agenda/linda-parys-vojto-monteur',
   },
 ];

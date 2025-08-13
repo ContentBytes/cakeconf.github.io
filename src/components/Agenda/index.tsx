@@ -8,7 +8,7 @@ import Link from '@docusaurus/Link';
 
 
 const DayOneTalks = AgendaItems.slice(2, 13);
-const DayTwoTalks = AgendaItems.slice(15, 25);
+const DayTwoTalks = AgendaItems.slice(15, 26);
 
 const DayOneWorkshops = AgendaItems.slice(0, 2);
 const DayTwoWorkshops = AgendaItems.slice(13, 15);
