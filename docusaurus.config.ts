@@ -61,7 +61,7 @@ const config: Config = {
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: ['./src/css/custom.css', './src/css/subpage.css']
+          customCss: ['./src/css/custom.css', './src/css/subpage.css', './src/css/main.css']
         },
       } satisfies Preset.Options,
     ],
@@ -86,7 +86,7 @@ const config: Config = {
         { to: 'about', label: 'About', position: 'right' },
         { to: 'agenda', label: 'Agenda', position: 'right' },
         { to: 'speakers', label: "Speakers", position: 'right' },
-        { to: 'media_kit', label: "Partners", position: 'right' },
+        { to: 'partners', label: "Partners", position: 'right' },
         {
           to: "tickets",
           position: "right",
@@ -108,7 +108,7 @@ const config: Config = {
           items: [
             { to: '/', label: 'About', position: 'right' },
             { to: 'speakers', label: 'Speakers', position: 'right' },
-            { to: 'media_kit', label: 'Partners', position: 'right' },
+            { to: 'partners', label: 'Partners', position: 'right' },
           ],
         },
         {

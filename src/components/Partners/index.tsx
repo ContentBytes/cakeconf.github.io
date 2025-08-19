@@ -5,7 +5,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import { ButtonWhite } from '../Button';
 import { PartnerList } from './Partners';
 
-const PartnersLink = '/media_kit';
+const PartnersLink = '/partners';
 
 export type PartnerProps = {
   link: string;
