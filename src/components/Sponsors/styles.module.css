@@ -1,0 +1,10 @@
+.image {
+  height: 450px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+
+}

@@ -35,7 +35,7 @@ function CreateParners() {
 
 export default function Partners() {
   return (
-    <div id="partners" className={styles.background}>
+    <div id="partners" className="sp-background">
       <div className={styles.title}>Partners</div>
       <div className={styles.centerImgs}>
         <CreateParners />

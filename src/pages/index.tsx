@@ -8,6 +8,7 @@ import Topics from '../components/Topics';
 import Networking from '../components/Networking';
 import Partners from '../components/Partners';
 import Newsletter from '../components/Newsletter';
+import Sponsors from '../components/Sponsors';
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
@@ -18,9 +19,10 @@ export default function Home(): ReactNode {
       <main>
         <About />
         <Speakers />
-        <Partners />
+        <Sponsors />
         <Topics />
         <Networking />
+        <Partners />
         <Newsletter />
       </main>
     </Layout>
