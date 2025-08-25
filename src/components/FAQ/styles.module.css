@@ -1,0 +1,28 @@
+.collapsible {
+  background: #FFFFFF;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.faq {
+  padding-top: 50px;
+}
+
+summary::marker {
+  content: "";
+}
+
+summary {
+  font-weight: 600;
+}
+
+details {
+  user-select: none;
+}
+
+.link {
+  color: #009402;
+}
