@@ -88,10 +88,9 @@ const config: Config = {
         { to: 'speakers', label: "Speakers", position: 'right' },
         { to: 'partners', label: "Partners", position: 'right' },
         {
-          to: "tickets",
+          to: "faq",
           position: "right",
-          label: "💥 Get tickets",
-          className: "tickets-button"
+          label: "FAQ",
         },
       ],
     },
@@ -109,6 +108,7 @@ const config: Config = {
             { to: '/', label: 'About', position: 'right' },
             { to: 'speakers', label: 'Speakers', position: 'right' },
             { to: 'partners', label: 'Partners', position: 'right' },
+            { to: 'tickets', label: 'Tickets', position: 'right' }
           ],
         },
         {
