@@ -4,9 +4,10 @@ import type * as Preset from '@docusaurus/preset-classic';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 /* Socials */
-const linkedinLink = "https://www.linkedin.com/company/content-bytes/";
-const instagramLink = "https://www.instagram.com/contentbytes.krk/";
-const facebookLink = "https://www.facebook.com/people/Content-Bytes/61564025612434/";
+const linkedinLink = 'https://www.linkedin.com/company/content-bytes/';
+const instagramLink = 'https://www.instagram.com/contentbytes.krk/';
+const facebookLink =
+  'https://www.facebook.com/people/Content-Bytes/61564025612434/';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -61,7 +62,11 @@ const config: Config = {
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: ['./src/css/custom.css', './src/css/subpage.css', './src/css/main.css']
+          customCss: [
+            './src/css/custom.css',
+            './src/css/subpage.css',
+            './src/css/main.css',
+          ],
         },
       } satisfies Preset.Options,
     ],
@@ -71,7 +76,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/cake-social-card.png',
     colorMode: {
-      defaultMode: "dark",
+      defaultMode: 'dark',
       disableSwitch: true,
       respectPrefersColorScheme: false,
     },
@@ -82,15 +87,15 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        { to: '/', label: "Home", position: 'right' },
+        { to: '/', label: 'Home', position: 'right' },
         { to: 'about', label: 'About', position: 'right' },
         { to: 'agenda', label: 'Agenda', position: 'right' },
-        { to: 'speakers', label: "Speakers", position: 'right' },
-        { to: 'partners', label: "Partners", position: 'right' },
+        { to: 'speakers', label: 'Speakers', position: 'right' },
+        { to: 'partners', label: 'Partners', position: 'right' },
         {
-          to: "faq",
-          position: "right",
-          label: "FAQ",
+          to: 'faq',
+          position: 'right',
+          label: 'FAQ',
         },
       ],
     },
@@ -106,24 +111,25 @@ const config: Config = {
           title: 'CAKE conf',
           items: [
             { to: '/', label: 'About', position: 'right' },
+            { to: '/about#location', label: 'Location', position: 'right' },
             { to: 'speakers', label: 'Speakers', position: 'right' },
             { to: 'partners', label: 'Partners', position: 'right' },
-            { to: 'tickets', label: 'Tickets', position: 'right' }
+            { to: 'tickets', label: 'Tickets', position: 'right' },
           ],
         },
         {
           title: 'Content Bytes',
           items: [
             {
-              label: "Instagram",
+              label: 'Instagram',
               href: instagramLink,
             },
             {
-              label: "Facebook",
+              label: 'Facebook',
               href: facebookLink,
             },
             {
-              label: "LinkedIn",
+              label: 'LinkedIn',
               href: linkedinLink,
             },
           ],
@@ -131,7 +137,10 @@ const config: Config = {
         {
           title: 'Contact us',
           items: [
-            { to: 'mailto:hello@contentbytes.pl', label: 'hello@contentbytes.pl' }
+            {
+              to: 'mailto:hello@contentbytes.pl',
+              label: 'hello@contentbytes.pl',
+            },
           ],
         },
       ],
@@ -147,11 +156,11 @@ const config: Config = {
     {
       tagName: 'script',
       attributes: {
-        type: "text/javascript"
+        type: 'text/javascript',
       },
       innerHTML: `
-      (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments);},l=d.createElement(e),l.async=1,l.src=u,n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');ml('account', '1431354');`
-    }
+      (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments);},l=d.createElement(e),l.async=1,l.src=u,n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');ml('account', '1431354');`,
+    },
   ],
 };
 
