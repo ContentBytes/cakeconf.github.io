@@ -17,6 +17,7 @@
 
 .image {
   max-width: 180px;
+  border-radius: 8px;
 }
 
 .title {
