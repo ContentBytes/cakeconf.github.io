@@ -23,12 +23,12 @@ export const SpeakerList: SpeakerItem[] = [
     url: 'agenda/nachu-herrera',
   },
   {
-    picture: 'img/speakers/dariusz-drezno.png',
-    name: 'Dariusz Drezno',
-    desc: 'Speaker, trainer, accessibility expert',
-    linkedIn: 'https://www.linkedin.com/in/dariusz-drezno',
+    picture: 'img/speakers/katarzyna-basiewicz.png',
+    name: 'Katarzyna Basiewicz',
+    desc: 'Digital accessibility specialist',
+    linkedIn: 'https://www.linkedin.com/in/katarzyna-basiewicz',
     hover: true,
-    url: 'agenda/dariusz-drezno',
+    url: 'agenda/katarzyna-basiewicz',
   },
   {
     picture: 'img/speakers/lukasz-gornicki.png',
