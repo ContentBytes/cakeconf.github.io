@@ -52,6 +52,12 @@ export default function FAQ() {
             </Link>
             or send us a message on LinkedIn or Instagram.
           </details>
+          <details className={styles.collapsible}>
+            <summary>Will tickets become available again?</summary>
+            Unfortunately, we're not planning to release any more tickets as we've
+            reached the capacity of the venue. If you couldn't make it this time,
+            we hope to see you next year!
+          </details>
         </div>
       </div>
     </div>
