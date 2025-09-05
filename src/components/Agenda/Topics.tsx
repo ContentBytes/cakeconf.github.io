@@ -96,7 +96,7 @@ export const AgendaItems: CardProps[] = [
   {
     category: 'Accessibility',
     title: BioAndAbstract[13]['title'],
-    speaker: 'Dariusz Drezno',
+    speaker: 'Katarzyna Basiewicz',
     time: `9:30${'\u2013'}11:30`,
     url: BioAndAbstract[13]['url'],
   },

@@ -345,19 +345,20 @@ export const BioAndAbstract: TopicInfoProps[] = [
     url: '/agenda/dagmara-szol',
   },
   {
-    speaker: 'Dariusz Drezno',
+    speaker: 'Katarzyna Basiewicz',
     category: 'Accessibility',
     title: 'Dostępność dokumentacji - nieoczywiste pułapki 🇵🇱',
     bio: (
       <>
-        Dariusz is the co-creator of{' '}
-        <Link to="https://techwriter.pl">techwriter.pl</Link> and technical
-        communication postgraduate studies. For twenty years, he has been
-        optimizing content and training in large corporations, startups, and his
-        own companies, with accessibility being his focus for the last five
-        years. He develops accessibility standards within the Standard
-        Accessibility Reporting and W3C organizations. As a hobby, he runs a 3x3
-        basketball portal with his son.
+        Katarzyna is a team leader and project manager who has over ten years of
+        experience in testing digital products. In the last few years, she's
+        been focused on accessibility, introducing it into quality assurance
+        processes, and conducting audits and workshops. Katarzyna initiated the{' '}
+        <Link to="https://audyt-dostepnosci.pl/">
+          Webcheck - Audyt Dostępności
+        </Link>{' '}
+        project whose goal is to promote digital experiences that are inclusive
+        and accessible.
       </>
     ),
     abstract: (
@@ -379,7 +380,7 @@ export const BioAndAbstract: TopicInfoProps[] = [
         </p>
       </>
     ),
-    url: '/agenda/dariusz-drezno',
+    url: '/agenda/katarzyna-basiewicz',
   },
   {
     speaker: 'Michał Skowron',

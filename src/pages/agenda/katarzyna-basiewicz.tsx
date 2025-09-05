@@ -11,7 +11,7 @@ const Name = BioAndAbstract[13]["speaker"];
 const Bio = BioAndAbstract[13]["bio"];
 const Abstract = BioAndAbstract[13]["abstract"];
 
-const Picture = "img/speakers/dariusz-drezno.png";
+const Picture = "img/speakers/katarzyna-basiewicz.png";
 
 export default function Speaker(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
