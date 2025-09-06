@@ -22,6 +22,11 @@ export const PartnerList: PartnerProps[] = [
     alt: "Go to waysconf.com",
   },
   {
+    link: "https://audyt-dostepnosci.pl/",
+    img: "img/partners/audyt.png",
+    alt: "Go to Audyt Dostępności website",
+  },
+  {
     link: "https://saiit.odoo.com",
     img: "img/partners/saiit.png",
     alt: "Go to SAiIT website",
