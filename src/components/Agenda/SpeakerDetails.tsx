@@ -355,7 +355,7 @@ export const BioAndAbstract: TopicInfoProps[] = [
         been focused on accessibility, introducing it into quality assurance
         processes, and conducting audits and workshops. Katarzyna initiated the{' '}
         <Link to="https://audyt-dostepnosci.pl/">
-          Webcheck - Audyt Dostępności
+          Webchecker - Audyt Dostępności
         </Link>{' '}
         project whose goal is to promote digital experiences that are inclusive
         and accessible.
