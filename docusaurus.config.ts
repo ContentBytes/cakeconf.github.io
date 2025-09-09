@@ -92,6 +92,7 @@ const config: Config = {
         { to: 'agenda', label: 'Agenda', position: 'right' },
         { to: 'speakers', label: 'Speakers', position: 'right' },
         { to: 'partners', label: 'Partners', position: 'right' },
+        { to: 'party', label: 'Party', position: 'right' },
         {
           to: 'faq',
           position: 'right',
