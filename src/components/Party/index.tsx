@@ -13,7 +13,7 @@ function Card() {
       <div className={KitStyles.columns}>
         <div className={KitStyles.cardText}>
           <div className={KitStyles.cardTitle}>CAKE party</div>
-          <div className={KitStyles.cardDesc}>Friday at 6.30pm</div>
+          <div className={KitStyles.cardDesc}>Friday at 6:30pm</div>
         </div>
         <div className={KitStyles.cardButton}>
           Szklanki, ul. Jakuba 19, Kraków
@@ -43,7 +43,7 @@ export function Location() {
                 <b>Option 1:</b> Let's go together as a group!
               </p>
               <p>
-                <b>Option 2:</b> Take the tram no. 24 from Przystanek Bagatela
+                <b>Option 2:</b> Take the tram no. 24 from Teatr Bagatela
                 to Miodowa:
               </p>
               <ul>
