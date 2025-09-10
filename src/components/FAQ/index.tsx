@@ -44,6 +44,15 @@ export default function FAQ() {
             </Link>
           </details>
           <details className={styles.collapsible}>
+            <summary>When and where is the CAKE party happening?</summary>
+            CAKE party takes place in Szklanki located at Jakuba 19 street. For
+            details on how to get there, see{' '}
+            <Link to="party" className={styles.link}>
+              CAKE party
+            </Link>
+            .
+          </details>
+          <details className={styles.collapsible}>
             <summary>I still have questions, how can I contact you?</summary>
             You can write us an email at{' '}
             <Link to={'mailto:hello@contentbytes.pl'} className={styles.link}>
@@ -54,9 +63,9 @@ export default function FAQ() {
           </details>
           <details className={styles.collapsible}>
             <summary>Will tickets become available again?</summary>
-            Unfortunately, we're not planning to release any more tickets as we've
-            reached the capacity of the venue. If you couldn't make it this time,
-            we hope to see you next year!
+            Unfortunately, we're not planning to release any more tickets as
+            we've reached the capacity of the venue. If you couldn't make it
+            this time, we hope to see you next year!
           </details>
         </div>
       </div>
