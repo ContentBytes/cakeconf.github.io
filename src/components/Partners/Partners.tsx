@@ -31,4 +31,9 @@ export const PartnerList: PartnerProps[] = [
     img: "img/partners/saiit.png",
     alt: "Go to SAiIT website",
   },
+  {
+    link: "https://www.learndesign.pl/",
+    img: "img/partners/ld.png",
+    alt: "Go to Learn Design website",
+  },
 ]
